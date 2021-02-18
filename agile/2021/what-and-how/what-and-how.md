@@ -3,7 +3,7 @@ title: The difference between what and how
 published: false
 description: 
 tags: 
-//cover_image: https://direct_url_to_image.jpg
+cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/master/agile/2021/what-and-how/images/cover-image.jpg?token=AIBLSG6ECV4HGHPIR2Y4J4TAG5YAM
 ---
 
 When I'm not busy playing with computers, being a little evangelical about Scrum or reading a book I'm something of a petrol head. I watch F1, Superbikes and watched MotoGP until the BBC lost the rights at the end of last year...
