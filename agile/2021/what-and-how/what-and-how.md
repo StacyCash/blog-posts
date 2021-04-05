@@ -6,9 +6,9 @@ tags:
 cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/master/agile/2021/what-and-how/images/cover-image.jpg?token=AIBLSG6ECV4HGHPIR2Y4J4TAG5YAM
 ---
 
-When I'm not busy playing with computers, being a little evangelical about Scrum or reading a book I'm something of a petrol head. I watch F1, Superbikes and watched MotoGP until the BBC lost the rights at the end of last year...
+When I'm not playing with computers, or Lego, I'm a bit of a petrol head. I watch F1, MotoGP and Superbikes.
 
-What does this have to do with Scrum you ask?
+What does this have to do with software development you ask?
 
 Well... With all of the uproar about the noise in F1 (no pun intended...) since the start of the season I was wondering what could have been done differently. And thought about the “how” and “what” problem.
 
