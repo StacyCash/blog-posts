@@ -63,6 +63,24 @@ The first thing that we need is an account to
 
 ### Making the Client
 
+Inside of Visual Studio 2019 latest version (community, professional or enterprise editions will work)
+
+1. Create a new project
+2. Search for a Blazor WASM Project
+3. Click Create
+4. Set up the details as follows
+  a. Project Name: Client
+  b. Location the directory that contains your GitHub Repo directory (If your repo is in `c:\code\my-github-repo` then enter `c:\code`)
+  c. For the solution name enter the name of your GitHub repo (in our example above `my-github-repo`)
+5. Select .Net 5.0
+6. Leave the options as default
+  [X] Set up for HTTPS
+  [ ] Hosted .Net Core Application
+  [ ] Progressive Web Application
+7. Click create
+
+Visual Studio should now create your client application. If you have never created a Blazor application before then run the application and take a look around 😀
+
 ### Making the API
 
 ## Setup Debugging
