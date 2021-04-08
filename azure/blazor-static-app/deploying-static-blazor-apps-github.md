@@ -42,15 +42,24 @@ With that - let's start!
 
 ## Prerequisites
 
+This tutorial is going to be step by step - taking you through each action we need to do to get an application created, and deployed into Azure. There are a few things that we are not going to cover here though:
 
+* GitHub: I'm assuming that you have
+  * A GitHub account
+  * An empty repo setup (with a Visual Studio `.gitignore`)
+  * That you have this repo cloned to your machine
 
-## Getting Started
+If not then this would be a good time to bookmark this page and [set it up](https://docs.github.com/en/github/getting-started-with-github)
 
-### Github Repo
+I'm also assuming that you have an Azure account. We will be going through the steps of making the resources that we need in the tutorial, but not for creating the account itself.
 
-### Clone the Repo
+You can find instructions for creating a free account [here](https://azure.microsoft.com/en-us/free/)
+
+When the GitHub repo has been cloned, and the Azure account is ready - let's get started!
 
 ## Making Our Application
+
+The first thing that we need is an account to 
 
 ### Making the Client
 
@@ -87,3 +96,11 @@ With that - let's start!
 ### GitHub Actions
 
 ## Next Steps
+
+## Further Reading
+
+[Azure Static Web Apps](https://azure.microsoft.com/en-us/services/app-service/static/)
+
+[MS Docs - Static Web Apps](https://docs.microsoft.com/en-us/azure/static-web-apps/overview?WT.mc_id=AZ-MVP-5003925)
+
+[MS Learn - Static Web Apps](https://docs.microsoft.com/en-us/learn/paths/azure-static-web-apps?WT.mc_id=AZ-MVP-5003925)
