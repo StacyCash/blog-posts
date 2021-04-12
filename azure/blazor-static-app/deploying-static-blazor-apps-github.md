@@ -105,7 +105,13 @@ Visual Studio should now scaffold the Api for us and add it to our solution
 
 ## Setup Debugging
 
-### Static Web App CLI
+So, now we have a client application, and an API to get data.
+
+Inside of a Static Web App in Azure the client will be able to make HTTP calls to the API without an extra work (aside from the code to actually make the call of course). It does this by putting a reverse proxy behind the URL which can direct the call to either the client or the Api.
+
+Unfortunately, locally we don't have that luxury and so we need to do a little more work if we want to debug on our machine!
+
+> The Static Web App CLI ias just been released in preview which can also help here, but that will be covered in another blog post!
 
 ### Use the API in the FetchData page
 
@@ -116,6 +122,19 @@ Visual Studio should now scaffold the Api for us and add it to our solution
 ### Add the WeatherForecast function
 
 ### Allow CORS for Local Development
+
+The last step that we need to debug locally is to allow allow cross origin requests when running in our development environment.
+
+Yes, cross origin! Our client will be running on one port, our Api on another - and that's not allowed out of the box for security reasons!
+
+1. Inside the `Properties` folder of the `Api` add a new file: `launchSettings.json`
+2. Put the following json in the new file
+
+```json
+{}
+```
+
+Now when the Api is launched locally in VisualStudio CORS will be enabled for all calls.
 
 ### Check out Application is Running
 
