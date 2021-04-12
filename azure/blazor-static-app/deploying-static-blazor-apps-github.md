@@ -125,6 +125,19 @@ The first thing that we need to do is ensure that both of our projects will run 
 
 ### Use the API in the FetchData page
 
+In the scaffolded application there are two demo pages. One shows how to interact with the pages (Counter.razor), the other shows how to retrieve data from an external source and iterate it to the screen (FetchData.razor)
+
+It is `FetchData.razor` that we are going to be changing for this demonstration.
+
+By default the data is fetched from a static JSON file created inside of the `wwwroot` directory, we are going to change this JSON call to call our Api
+
+1. Open the `FetchData.razor` page
+2. On line XX replace the call to `sample-data.json` with `api/weather-forecast`
+
+```c#
+// TODO: Put code sample here
+```
+
 ### Add the API URL for Debugging
 
 ### Change the HttpClient when Debugging
