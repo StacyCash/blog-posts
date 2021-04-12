@@ -85,6 +85,24 @@ Visual Studio should now create your client application. If you have never creat
 
 ### Making the API
 
+So far we have our client side Blazor application, and as is we can deploy a static site using just this project.
+
+But we want to have a dynamic site! So we need somewhere to get the data from - our Api!
+
+1. Right click on the solution in the solution explorer
+2. Click `Add`
+3. Click `New Project`
+4. In the "New Project" pop-up search for `Azure function`
+5. Click `Next`
+6. Give the project a name `Api`
+7. Click `Create`
+8. Select `HTTP Trigger`
+9. CLick `Create
+
+> If you get the option to pick a framework version select .Net Core 3.1 - .Net 5.0 isn't well supported yet!
+
+Visual Studio should now scaffold the Api for us and add it to our solution
+
 ## Setup Debugging
 
 ### Static Web App CLI
