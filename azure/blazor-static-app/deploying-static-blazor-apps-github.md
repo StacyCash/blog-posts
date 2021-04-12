@@ -113,6 +113,8 @@ Unfortunately, locally we don't have that luxury and so we need to do a little m
 
 > The Static Web App CLI ias just been released in preview which can also help here, but that will be covered in another blog post!
 
+### Set the Start-Up Projects
+
 ### Use the API in the FetchData page
 
 ### Add the API URL for Debugging
@@ -137,6 +139,16 @@ Yes, cross origin! Our client will be running on one port, our Api on another - 
 Now when the Api is launched locally in VisualStudio CORS will be enabled for all calls.
 
 ### Check out Application is Running
+
+With these steps done we can now run our application locally!
+
+Run the application, and open the developer tools of your browser. Open the network tab and wait for the home page to load.
+
+Now clear the list of files (you don't have to do this step, but it reduces the noise for the next step) and click 'Fetch Data'
+
+In the network tab the call to the API should now be visible - if everything is working rather than the call to the `example-data.json` file, we should now see the call to `localhost:7071/weather-forecast`.
+
+Stop the application, and push the changes to the GitHub repo. We are now ready to make our Azure Static Web Application.
 
 ## Finishing Up
 
