@@ -184,9 +184,36 @@ Now clear the list of files (you don't have to do this step, but it reduces the 
 
 In the network tab the call to the API should now be visible - if everything is working rather than the call to the `example-data.json` file, we should now see the call to `localhost:7071/weather-forecast`.
 
-Stop the application, and push the changes to the GitHub repo. We are now ready to make our Azure Static Web Application.
+Stop the application - we just have one more change to make before pushing to GitHub!
 
 ## Finishing Up
+
+We can debug the application, and run it in production, but we have one step left to make it work well for our users.
+
+Because we have built an app to be hosted in a Static Web App there is no web server sitting behind it - just static files. That's what we want! But it also comes with a downside...
+
+All routes on our application exist only in the browser when the application runs. We can visit the route of the site, and click through to a page (the URL may change, but there are no server requests made). What we can't do is go directly to page without first visiting that index page. When we try that the server tries to find the page that we are looking for, fails - because it doesn't exist - and returns a 404 error.
+
+Not what we want...
+
+Thankfully there is a simple solution to this. Ensure that there is a fallback route in set-up in for the site. The Static Web App will use this to redirect pages which it can't find.
+
+1. Add a new file to the `wwwroot` folder called `Routes.json`
+2. Paste this JSON snippet into the file
+
+``` json
+{}
+```
+
+This file matches all routes not found on the server (with the `/*` route)
+These routes are redirected to `index.html`, the front door to our site
+And the status is overridden as a 200 - otherwise our new pages would be found, but the response code would still show an error
+
+On the client when this redirect happens it picks up the redirect and tries to open that route inside the application. If it is found we see the page, otherwise we see the client 'Not found' page.
+
+As we are running our application inside of Visual Studio this isn't something that we can show locally - so we will test that this is working inside of Azure
+
+Now our application is ready for deploying - let's check in out code, push it to GitHub and get started on create our Static Web App in Azure!
 
 ## Create the Azure Static Web App
 
