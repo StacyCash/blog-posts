@@ -115,6 +115,14 @@ Unfortunately, locally we don't have that luxury and so we need to do a little m
 
 ### Set the Start-Up Projects
 
+The first thing that we need to do is ensure that both of our projects will run when we debug the application. By default only the client will be ran, so we need to set the start up projects.
+
+1. Right click the solution in the solution explorer
+2. Click `Properties`
+3. In the screen that opens click `Multiple Startup-Projects`
+4. In the list of projects ensure that both are set to 'Start'
+5. Click 'Save'
+
 ### Use the API in the FetchData page
 
 ### Add the API URL for Debugging
