@@ -138,9 +138,24 @@ By default the data is fetched from a static JSON file created inside of the `ww
 // TODO: Put code sample here
 ```
 
-### Add the API URL for Debugging
-
 ### Change the HttpClient when Debugging
+
+But wait! We said that the Api would be on a different port? So where do we get that from?
+
+We are going to add a local settings file, something that won't be pushed to GitHub, so that when we run locally we can tell the application to look somewhere else for the data.
+
+1. Create a `local.settings.json` file in the `wwwroot` folder
+2. Add a value into file `API_LOCATION`, with the value `https://localhost:7071/`
+
+Your `local.settings.json` should look like
+
+``` json
+{
+  "API_LOCATION": "https://localhost:7071"
+}
+```
+
+### Add the API URL for Debugging
 
 ### Add the WeatherForecast function
 
