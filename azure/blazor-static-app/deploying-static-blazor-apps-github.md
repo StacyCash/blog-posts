@@ -157,7 +157,60 @@ Your `local.settings.json` should look like
 
 ### Add the API URL for Debugging
 
+Now that we have the URL, we need to use it!
+
+When the application first loads a http client is created for the dependency injection. This is set, as standard, to the base address of the application.
+
+That is what we want when running in our Azure Static Web App, but not when debugging, there we need to use the URL stored in our `local.settings.json` file
+
+1. In the `Client` project open `Program.cs`
+2. Replace line 20 with the code snipper below
+
+``` C#
+// TODO: Add code snippet for program.cs file here
+```
+
+This code will check if there is an environment setting called `API_LOCATION`, and if there is use that rather than the Base URL of the application itself.
+
 ### Add the WeatherForecast function
+
+We now have a client application that will call the API when we need it to, but as yet there isn't a function to serve the request.
+
+We'll build this now
+
+1. Right click on the project file for `Api`
+2. Click `Add`
+3. Select `Function`
+4. Select `Http Trigger`
+5. Call the new function `WeatherForecastFunction`
+6. Change the `Run` function signature as follows
+
+``` C#
+//TODO: add code snippet for run
+```
+
+> This sets the function to be get only, sets the route for the function to be `weather-forecast`, and the return type to an IEnumerable of WeatherForcast
+
+7. Add the code to define the `WeatherForecast` struct
+
+``` C#
+//TODO: Add weatherforecast struct here
+//TODO: Check to see if this is actually needed, or can we use dynamic objects here...
+```
+
+> Normally we would put this object in a separate file, and share the model between the `Client` and `Api`.
+
+8. Add the code to generate the results which we are going to return to the body of the `Run` function
+
+``` C#
+//TODO: Add code snippet for generating weather forecast
+```
+
+Our finished function should look like this:
+
+``` C#
+//TODO: Add weatherforecast class code here
+```
 
 ### Allow CORS for Local Development
 
