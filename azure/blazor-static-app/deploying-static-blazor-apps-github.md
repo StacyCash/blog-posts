@@ -59,7 +59,7 @@ When the GitHub repo has been cloned, and the Azure account is ready - let's get
 
 ## Making Our Application
 
-The first thing that we need is an account to 
+Before we can create our Azure Static Web Application we need a Blazor application to deploy into it.
 
 ### Making the Client
 
