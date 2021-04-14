@@ -10,11 +10,11 @@ tags:
 
 With the introduction of Blazor we had the ability to write SPA web applications using the same technology that we wrote our server side code.
 
-In fact, for those using Server side Blazor it can run alongside your server side code!
+In fact, for those using Server side Blazor it can run alongside our server side code!
 
-But, as well as Server Side Blazor, the announcement also included Client Side BLazor - the ability for your app to run in the users browser via wasm.
+But, as well as Server Side Blazor, the announcement also included Client Side Blazor - the ability for our app to run in the users browser via wasm.
 
-That is, on the first call a wasm compiled .Net runtime is downloaded to the client, along with your code, and ran inside the browser.
+That is, on the first call a wasm compiled .Net runtime is downloaded to the client, along with our code, and ran inside the browser.
 
 ## Static Web Apps
 
@@ -28,13 +28,13 @@ Now inside of one resource we can host not only our client application for deliv
 
 ### Deployment
 
-When the Azure Static Web App preview first came out, there was one choice for hosting your code: GitHub.
+When the Azure Static Web App preview first came out, there was one choice for hosting our code: GitHub.
 
-When you created the app you connected the resource to your GitHub repo, and the Azure Portal would create a deployment Action for you. Another benefit! Out of the box you have a flow for continuous deployment of your app out of the box. Including a workflow to help you with pull requests, and checking your code in a production like environment before pushing to production.
+When you created the app you connected the resource to our GitHub repo, and the Azure Portal would create a deployment Action for you. Another benefit! Out of the box you have a flow for continuous deployment of our app out of the box. Including a workflow to help you with pull requests, and checking our code in a production like environment before pushing to production.
 
-If you didn;t have a GitHUb account though, you had a problem! Sorry...
+If you didn't have a GitHUb account though, you had a problem! Sorry...
 
-That changed around April 2021 - support for other ways of hosting your repo was introduced. However, the integration, right now, is not on the same level as GitHub, and there are more manual steps you need to complete.
+That changed around April 2021 - support for other ways of hosting our repo was introduced. However, the integration, right now, is not on the same level as GitHub, and there are more manual steps you need to complete.
 
 For that reason we are going to use Github today! A post for Azure DevOps is in the pipeline, but lets start with the simplest option!
 
@@ -81,7 +81,7 @@ Inside of Visual Studio 2019 latest version (community, professional or enterpri
 
 7. Click create
 
-Visual Studio should now create your client application. If you have never created a Blazor application before then run the application and take a look around 😀
+Visual Studio should now create our client application. If you have never created a Blazor application before then run the application and take a look around 😀
 
 ### Making the API
 
@@ -270,11 +270,58 @@ Now our application is ready for deploying - let's check in out code, push it to
 
 ## Create the Azure Static Web App
 
+We have an application ready to deploy, now we can make the Azure Resource to deploy it.
+
+It's time for us to open up the portal!
+
 ### Create the Resource Group
+
+The first thing that we need to create a resource group to hold our resources
+
+1. Click the resources link
+2. Click the add button
+3. Check that the subscription is correct
+4. Give the Resource Group a name
+5. Select the region that best suits your location, I'm based in the Netherlands, so I picked "West Europe"
+6. Click "Review and Create"
+7. If the validation passes click "Create"
+
+A resource group should take a few seconds to provision.
+
+When it does click on the "Go to resource" button
 
 ### Create the Static Web App
 
-### Log into GitHub
+We now have an empty resource group, time to put something in it
+
+1. Click the "Add" button
+2. In the search box type `Static Web App (preview)`
+3. Client the link //TODO: Check the actual link
+4. Click Create
+5. In the screen that opens, check the subscription and resource group are correct
+
+> If you create a new resource from the a resource group directly then these should be automatically filled, but checking is always recommended
+
+6. Fill in the name of the Static Web App, unlike a 'Web App' resource, this does not have to be unique inside of Azure
+7. Select 'GitHub`
+
+> As mentioned at the start of this tutorial, GitHub isn't the only way to deploy a Static Web App, but it's the easiest at the moment - so we are using it here.
+
+8. Click `Authorise`
+
+> A second window will open, log into GitHub with the credentials needed to access your repo 
+
+9. Select the organisation, repo and branch that our Blazor/Azure Function app has been pushed to
+10. In the drop down lost of deploy profiles select 'Blazor'
+11. Check that the "Client" and "Api" input fields are set to the location where our Client and Api are stored
+
+> In our example app we created the projects with the names "Client" and "Api" so that we can use the default values here. If yours are in a different location you will need to make a change to reflect that in these fields
+
+12. The output folder can be anything as long as the folder does not exist in the repo. Leave it as default unless you have a 'wwwroot' in the root of your repo
+13. Click 'Review and Create'
+14. If the validation passes click 'Create'
+
+The new resource should be available in a few seconds
 
 ### Check new Resource
 
