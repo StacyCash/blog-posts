@@ -325,9 +325,44 @@ The new resource should be available in a few seconds
 
 ### Check new Resource
 
+Once the resource has been provisioned we should see a pop-up in the corner of the portal.
+
+Click on the `Go To Resource`
+
+We should now see the overview of the Static Web App
+
+In this screen we can set environment variables, configuration options and other information about the resource just created
+
+In the upper corner of the screen we can see the URL which has been attached to the resource.  A descriptor, followed by a noun and then a series of numbers. This is why the name for our Static Web App doesn't need to be unique!
+
+Open the link
+
+We should now see the new Static Web App, only it's not the app that we wanted to deploy... This is the placeholder until our app has been deployed.
+
+So how is it going to get there? We have a GitHub action for that!
+
 ### GitHub Actions
 
+The GitHib action was created by the Azure Portal when we created our Static Web App.
+
+1. Open the repo
+2. Click `Actions`
+3. Here we see an action running - this is deploying our web site for us! Click the vertical ellipse at the end of the run
+4. Click View Workflow File
+
+The workflow file fires on a change to the watched branch, builds the application - both the Blazor application and the Azure Function, as well as any other projects needed to compile either.
+
+After compiling the application, it deploys the application to the Static Web App ready for use.
+
+There are also jobs here to support pull requests workflows - but we'll cover those in a later post.
+
+THe workflow should taken between 3 and 6 minutes to run - when it's finished return to the URL of the Static Web App and refresh the page.
+
+We should now see our test application running in production!
+
 ## Next Steps
+
+
 
 ## Further Reading
 
