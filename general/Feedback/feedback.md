@@ -3,7 +3,7 @@ title: Feedback
 published: false
 description: A quick post about issues with feedback
 tags: feedback, practice, improvement
-//cover_image: https://direct_url_to_image.jpg
+cover_image: https://direct_url_to_image.jpg
 ---
 
 I know that you are not supposed to, but I hate feedback.
