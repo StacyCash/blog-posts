@@ -3,8 +3,12 @@ title: Practice Makes Perfect
 published: false
 description: 
 tags: 
-//cover_image: https://direct_url_to_image.jpg
+//cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/main/general/practice-makes-perfect/cover-image.jpg
 ---
+
+This week I received my speakers gift for talking at Dot Net Frontend day.
+
+An absolutely amazing, personalised Lego set!
 
 Making the unboxing video for dot net frontend day
 
