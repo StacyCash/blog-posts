@@ -3,7 +3,7 @@ title: Keypresses
 published: false
 description: From emails to (internal) blog posts
 tags: 
-//cover_image: https://direct_url_to_image.jpg
+cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/main/general/keypresses/cover-image.jpg
 ---
 
 A while ago Scott Hanselman wrote a blog post about the amount of keystrokes you have left, and how to make them count. You can find it [here]
