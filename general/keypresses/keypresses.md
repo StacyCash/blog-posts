@@ -1,6 +1,6 @@
 ---
 title: Keypresses
-published: false
+published: true
 description: From emails to (internal) blog posts
 tags: 
 cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/main/general/keypresses/cover-image.jpg
