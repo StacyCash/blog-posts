@@ -1,9 +1,9 @@
 ---
 title: Time to be me
-published: false
+published: true
 description: Be yourself, you can't be anyone else.
 tags: mentalhealth, personal
-//cover_image: https://direct_url_to_image.jpg
+cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/main/general/time-to-be-me/cover-image.jpeg
 ---
 
 In a recent post I mentioned that I have PTSD, an Anxiety disorder and suffer from Depressive Mood Syndrome.
