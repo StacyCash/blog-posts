@@ -10,11 +10,11 @@ For the last year or so I've been playing with Static Web Apps, writing talks ba
 
 Earlier this year there was a new tool which also came into preview: Static Web App CLI.
 
-And NPM package that allows you to run your code application locally, making it look like it's hosted in a Static Web App.
+An NPM package that allows you to run your code application locally, making it look like it's hosted in a Static Web App.
 
 And so... I thought that I would try this out and write a talk around it. Gulp.
 
-This is a new one for me. I generally write my talks around tools which are already in use, and help introduce them to it.
+This is a new one for me. I generally write my talks around tools which are already in use, and help introduce a new audience to it.
 
 Here I am having to think how I use the tool, and use the tool with limited availability to the experience of others.
 
@@ -50,3 +50,6 @@ Good enough to learn a language, and good enough to jump in, both feet, into som
 And so learning both of these over the last month or so has really helped my imposter syndrome 😁
 
 Go out and try learning something new!
+
+Ciover Photo by <a href="https://unsplash.com/@element5digital?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Element5 Digital</a> on <a href="https://unsplash.com/s/photos/learning?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
