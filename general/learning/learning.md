@@ -1,8 +1,8 @@
 ---
 title: Learning
 published: false
-description: 
-tags: 
+description: What I learnt about me whilst learning a new technology, and a new (spoken) language
+tags: personaldevelopment
 //cover_image: https://direct_url_to_image.jpg
 ---
 
