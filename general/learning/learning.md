@@ -3,7 +3,7 @@ title: Learning
 published: false
 description: What I learnt about me whilst learning a new technology, and a new (spoken) language
 tags: personaldevelopment
-//cover_image: https://direct_url_to_image.jpg
+cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/main/general/learning/cover-image.jpg
 ---
 
 For the last year or so I've been playing with Static Web Apps, writing talks based on it, and making my own website using them.
