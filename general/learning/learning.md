@@ -10,19 +10,19 @@ For the last year or so I've been playing with Static Web Apps, writing talks ba
 
 Earlier this year there was a new tool which also came into preview: Static Web App CLI.
 
-An NPM package that allows you to run your code application locally, making it look like it's hosted in a Static Web App.
+An NPM package that allows you to run your application locally, making it look like it's hosted in an Azure Static Web App.
 
 And so... I thought that I would try this out and write a talk around it. Gulp.
 
 This is a new one for me. I generally write my talks around tools which are already in use, and help introduce a new audience to it.
 
-Here I am having to think how I use the tool, and use the tool with limited availability to the experience of others.
+Here I am having to think how I use the tool, and do that with limited availability of the experience of others.
 
-So... I've been playing with the CLI and seeing what it does. When things didn't work as I expected I've dived into the issues on the Github repo.
+So... I've been playing with the CLI and seeing what it does. When things didn't work as I expected I've dived into the issues on the GitHub repo.
 
 For one thing I was trying to get working I even dived into the code! (Yay for open source!)
 
-And the result... A talk that I am proud of and get to give for the firs time in about 4 days.
+And the result... A talk that I am proud of and get to give for the first time in about 4 days.
 
 The other thing that I have been doing for the last 32 days is learning a new language. Swedish.
 
@@ -34,12 +34,12 @@ Why am I telling you this?
 
 Because a few weeks ago I mentioned my issues with imposter syndrome. It was the post that kicked me into starting afresh with writing regular blog posts.
 
-And, well, both of the things I mentioned about are not what I consider my strong points.
+And, well, both of the things I mentioned are not what I consider my strong points.
 
 In school, many moons ago, I studied French. For three years. I speak no French. Almost not a word.<br />
 I lived in Nederland for 6 years before I got proficient at the language, and I'm still no expert! (Even if I can laugh at Dutch jokes and watch Dutch cabaretiers)
 
-I don't do languages. And yet... This is going. I'm sending (simple) Swedish WhatsApp messages to my friend.
+I don't do languages. And yet... This is going well. I'm sending (simple) Swedish WhatsApp messages to my friend.
 
 And, as I said, I don't do talks for preview technology where I don't have a wealth of knowledge to call upon. I'm not good enough.
 
