@@ -46,5 +46,7 @@ Ad as it's 5pm now it's time to go and jump in!
 
 Look after yourselves, and remember to allow yourself time to take a break!
 
+![Sitting in the pool](https://raw.githubusercontent.com/StacyCash/blog-posts/main/general/time-off/pool.jpg)
+
 Photo by <a href="https://unsplash.com/@jamie452?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jamie Street</a> on <a href="https://unsplash.com/s/photos/pool?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
