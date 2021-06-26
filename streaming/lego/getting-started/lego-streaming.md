@@ -3,7 +3,7 @@ title: Lego Streaming
 published: false
 description: A quick dive into my first streaming set-up!
 tags: 
-//cover_image: https://direct_url_to_image.jpg
+cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/main/streaming/lego/getting-started/cover-image.jpg
 ---
 
 I'm always amazed at the people who live code on Twitch. Not only because they are simply amazing, but also because of what it takes to put yourself out there to actually do it.
