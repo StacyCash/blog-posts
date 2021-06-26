@@ -43,4 +43,4 @@ Awesome, now I just need to mount it... I had a GorillaPod lying around (I used 
 
 The view it gave was not perfect, but hey, it worked!
 
-![Screenshot of camera angle pointing at the desk](./desktop-view.jpg)
+![Screenshot of camera angle pointing at the desk](https://raw.githubusercontent.com/StacyCash/blog-posts/main/streaming/lego/getting-started/desktop-view.jpg)
