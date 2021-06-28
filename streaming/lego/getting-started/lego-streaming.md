@@ -44,3 +44,25 @@ Awesome, now I just need to mount it... I had a GorillaPod lying around (I used 
 The view it gave was not perfect, but hey, it worked!
 
 ![Screenshot of camera angle pointing at the desk](https://raw.githubusercontent.com/StacyCash/blog-posts/main/streaming/lego/getting-started/desktop-view.jpg)
+
+## Setting up for the talk
+
+As you can see from the screenshot, desk space was at a premium.
+
+I did a dry run with the Lego in a mound, taking up less space, and seeing how it went.
+
+It was not good. In fact it was awful. Trying to search for Lego, and talk, and control the slide pack and remember to keep my hands in the right place for the camera was just too much.
+
+So I had to sort. This set has three models. So I layed them out side by side, sorted and easy to find what I was looking for.
+
+It took up too much space. I put the minifigs on the computer (which has to be in shot) and the other Lego bricks in front of it. Leaving me a small space where I could build the models. As I started to build I moved the box onto the floor...
+
+Doing this I managed to *(just)* manage everything in the rehearsals. Now for the actual build itself!
+
+## The talk
+
+On the night of the talk I had a blast! [Floor Drees](https://twitter.com/FloorDrees) is a wonderful MC and the whole thing was just so much fun!
+
+Of course I forgot some of the slides, and I made some mistakes with the building.
+
+However... I got some great feedback from the audience. And... I *loved* it! Building online was something that I just wanted to do more of! It was fantastic!
