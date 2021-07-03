@@ -6,7 +6,7 @@ tags: streaming, organising
 cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/main/streaming/making-space/cover-image.jpeg
 ---
 
-We've been working from home for 18 months now. Something that I actually quite like. But then I am in the lucky enough position to be able to set-up a work space.
+We've been working from home for 18 months now. Something that I actually quite like. But then I am in the lucky enough to have the space to set-up a dedicated work space. My studio in the attic.
 
 There was one (admittedly, luxury) problem. Since moving into the house the rooms that we were not using often, kind of turned into dumping grounds for things to be organised 'later'. Haha. Yes, later...
 
@@ -21,6 +21,7 @@ The only books left are:
 * My university books
 * Current software development books
 * Books about various agile practices
+* Cook books
 
 All the rest, the out of date books I couldn't get around to throwing out, coffee tables books that I rarely, if ever, read have been moved to our library (which at the moment also looks more like a dumping ground).
 
