@@ -2,8 +2,8 @@
 title: Making Space
 published: false
 description: A busy, but productive weekend
-tags: 
-//cover_image: https://direct_url_to_image.jpg
+tags: streaming, organising
+cover_image: https://github.com/StacyCash/blog-posts/blob/main/streaming/making-space/cover-image.jpeg
 ---
 
 We've been working from home for 18 months now. Something that I actually quite like. But then I am in the lucky enough position to be able to set-up a work space.
@@ -40,4 +40,4 @@ I am looking forward to the result though!
 
 Here is the story so far!
 
-![Finished Shelving](./finished-shelves.jpg)
+![Finished Shelving](https://raw.githubusercontent.com/StacyCash/blog-posts/main/streaming/making-space/finished-shelves.jpg)
