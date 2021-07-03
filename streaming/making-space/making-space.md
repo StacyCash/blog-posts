@@ -3,7 +3,7 @@ title: Making Space
 published: false
 description: A busy, but productive weekend
 tags: streaming, organising
-cover_image: https://github.com/StacyCash/blog-posts/blob/main/streaming/making-space/cover-image.jpeg
+cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/main/streaming/making-space/cover-image.jpeg
 ---
 
 We've been working from home for 18 months now. Something that I actually quite like. But then I am in the lucky enough position to be able to set-up a work space.
