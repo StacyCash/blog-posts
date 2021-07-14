@@ -1,4 +1,10 @@
-# Sprint Review
+---
+title: My Best Sprint Reviews
+published: false
+description: 
+tags: 
+//cover_image: https://direct_url_to_image.jpg
+---
 
 The Sprint Review. Like all of the get togethers in Scrum a meeting that can range from a tool to make a project fly, all the way to a boring exercise of people simply saying what stories they finished.
 
