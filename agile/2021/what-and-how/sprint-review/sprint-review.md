@@ -36,6 +36,6 @@ And every time it wasn't a cause for collective groaning from all involved with 
 
 Even now, 2 decades on, I look back on that time with a big smile (even though it was written in VB6 😛).
 
-But there is also a tinge of sadness that this not explicitly agile project was probably the most agile, and most successful project that I've been involved in.
+But there is also a tinge of sadness that this not explicitly agile project was probably the most agile that I have been involved in. And the Sprint Reviews, even though it wasn't an explicit Scrum project were the most energetic, useful and productive Sprint Reviews that I have been in...
 
 So please, read [Barry's post](https://medium.com/the-liberators/how-to-run-a-sprint-review-online-c9393515c038) about the sprint review and look to see how you can make your own less of a one way demo, with low energy and no communication and more of a collaborative session to really provide the spark needed to turn a great idea into an awesome product!
