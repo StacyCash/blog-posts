@@ -1,9 +1,9 @@
 ---
 title: My Best Sprint Reviews
-published: false
+published: true
 description: What awesome Sprint reviews feel like to me
 tags: scrum, collaboration, agile
-//cover_image: https://direct_url_to_image.jpg
+cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/main/agile/2021/sprint-review/cover-image.jpg
 ---
 
 The Sprint Review. Like all of the get-togethers in Scrum a meeting that can range from a tool to make a project fly, all the way to a boring exercise of people simply saying what stories they finished.
