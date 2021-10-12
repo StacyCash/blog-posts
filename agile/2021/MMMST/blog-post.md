@@ -3,7 +3,7 @@ title: Know your target, but focus on the next step
 published: false
 description: 
 tags: 
-//cover_image: https://direct_url_to_image.jpg
+cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/main/agile/2021/MMMST/cover-image.jpg
 ---
 
 A few weeks ago I saw a great [post](https://www.geepawhill.org/2021/09/29/many-more-much-smaller-steps-first-sketch/) by the wonderful [Geepaw Hill](https://twitter.com/GeePawHill) about making value faster by taking much smaller steps. The idea that in order to produce value quickly we need to take the smallest steps, allowing us to change direction any time we need.
