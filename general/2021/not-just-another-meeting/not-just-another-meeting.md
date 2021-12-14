@@ -37,6 +37,6 @@ We are working together, collaborating, and the whole session is series of tiny 
 
 When I leave a pairing session that has gone well I feel like I have achieved something. That I have less work on my plate than I had before I started. That between us we have solved a problem and helped our users.
 
-> How do I try to make my pair programming sessions work well? Take a look [here](https://dev.to/stacy_cash/how-to-get-the-most-from-pairing-19o8)
+*How do I try to make my pair programming sessions work well? Take a look [here](https://dev.to/stacy_cash/how-to-get-the-most-from-pairing-19o8)*
 
 That feeling, that dopamine spike, that is the reason I don't just see pair programming as just "yet another meeting on my calendar".
