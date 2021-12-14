@@ -20,7 +20,7 @@ It got me thinking. Why don't I view pair programming as just another meeting? W
 
 Last week the answer hit me.
 
-I was watching someone else who was in meetings thw whole day, and I asked, jokingly "wow, that's a lot of meetings, are they getting things done meetings, or adding to the todo list meetings?"
+I was watching someone else who was in meetings the whole day, and I asked, jokingly "wow, that's a lot of meetings, are they getting things done meetings, or adding to the todo list meetings?"
 
 And, ping, there was the answer for me! Meetings, especially those that could have just been a mail or 5 minute call, take energy to attend. They are the meetings that you attend knowing that
 
