@@ -2,7 +2,7 @@
 title: Not just another meeting
 published: false
 description: Pair programming is working together, it's blocking on my calendar, so why don't I think that it's yet another meeting taking up my time
-tags: 
+tags: pairprogramming, productivity, teamwork
 //cover_image: https://direct_url_to_image.jpg
 ---
 
