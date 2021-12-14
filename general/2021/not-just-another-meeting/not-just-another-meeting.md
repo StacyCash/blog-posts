@@ -3,7 +3,7 @@ title: Not just another meeting
 published: false
 description: Pair programming is working together, it's blocking on my calendar, so why don't I think that it's yet another meeting taking up my time
 tags: pairprogramming, productivity, teamwork
-//cover_image: https://direct_url_to_image.jpg
+cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/main/general/2021/not-just-another-meeting/cover-imaqge.jpg
 ---
 
 This morning I look at my calendar and it looks like I'm swamped with meetings.
