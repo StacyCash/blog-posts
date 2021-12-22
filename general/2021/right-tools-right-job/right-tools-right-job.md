@@ -3,7 +3,7 @@ title: Using the right tools for the right job
 published: false
 description: Using the right tools can be useful, but what are the right tools?
 tags: tooling, productivity
-cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/main/general/2021/right-tools-right-job/cover-imaqge.jpg
+cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/main/general/2021/right-tools-right-job/cover-image.jpeg
 ---
 
 Over the summer I tried to get fitter. I started to walk through the dunes, do Tabata workouts at home and at the sports club. And I started to cycle.
