@@ -1,6 +1,6 @@
 ---
 title: Using the right tools for the right job
-published: false
+published: true
 description: Using the right tools can be useful, but what are the right tools?
 tags: tooling, productivity
 cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/main/general/2021/right-tools-right-job/cover-image.jpeg
@@ -41,11 +41,11 @@ Right tools for the right job.
 
 But those right tools only work for me. I've had people look at me incredulously for not buying an electric bike - you can go much further and with much less effort. If I was commuting then I would wholeheartedly agree! But I'm not going to be commuting. I'm going to be trying to work out on a bike.
 
-Those gloves I'm looking at are way over the top for a lot of people (I'm sure that people I know will laugh at me), but for me they make sense. At least I hope they do, I have to see if I can still operate those tiny levers when wearing them!
+Those gloves I'm looking at are way over the top for a lot of people (I'm sure that some people I know will think it's over the top), but for me they make sense. At least I hope they do, I have to see if I can still operate those tiny levers when wearing them!
 
 So why am I rambling about this?
 
-Because I see the same switchover in IT. I'm writing post this in VS Code, because I love the markdown editor that comes out of the box.
+Because I see the same switchover in IT. I'm writing this in VS Code, because I love the markdown editor that comes out of the box.
 
 I also use VS Code for TypeScript work. Azure Functions, Angular Application, Vue etc. And for YAML, PowerShell scripts etc. It's such an amazingly versatile tool!
 
@@ -55,7 +55,9 @@ I have an amount of different tools that I use at different times. And when some
 
 Sometimes I change tools, other times not. Some tools I use in dark mode, others in light because I find the contrast with dark mode to be a little hard to see in some tools. There is no hard and fast rule that I stick to.
 
-I'm saying this because everyone has their own idea of what the best tools are, and some people will really try to convince you that you have to change. Either through positive pressure, trying to convince you just how much better your life will be if you change. Sometimes though shame tactics. That you are not a real developer if you don't use a particular tool. That you are an idiot if in 2021 you buy a new bike and it's not electric.
+I'm saying this because everyone has their own idea of what the best tools are, and some people will really try to convince you that you have to change.
+
+Either through positive pressure, trying to convince you just how much better your life will be if you change. Sometimes through shame tactics. That you are not a real developer if you don't use a particular tool. That you are an idiot if in 2021 you buy a new bike and it's not electric.
 
 But any 'right' tool is only right for the person using it. Someone else may really have other needs, or find something else a better fit. It's all personal.
 
