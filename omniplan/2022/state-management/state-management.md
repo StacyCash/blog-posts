@@ -61,9 +61,11 @@ This is all an order of magnitude simpler than the previous state management.
 
 ## Learning Curve
 
-As mentioned previously, if there is a downside to using the Redux pattern with NgRx, it is that is more complex to use and learn. The learning curve was very steep for our developers - having previously had no experience using it. The back end developers that do not interact with it daily need assistance to ensure that they are using it correctly.
+As mentioned previously, if there is a downside to using the Redux pattern with NgRx, it is that is more complex to use and learn. The learning curve was very steep for our developers - having previously had no experience using it. The back end developers that do not interact with it daily need assistance to ensure that they are using it correctly. This meant that the rewrite started slower than we would have liked as everyone got up to speed with the new technology and how to use it correctly.
 
 We went through iterations organizing our state across modules as we were learning how to use it. It caused some rework, but even with that rework it was simpler than the previous context service (which starts life really simple, and gets very complex, very quickly 😅).
+
+And it wasn't only the rework that was simpler than the previous context service, but adding new functionality become much simpler than it was before. Both for the changes themselves, but also limiting the impact that new functionality has on existing functionality.
 
 Another point to mention is the use of observables. NgRx is **very** observable heavy, certainly for the backend developers working this was a culture shock and took (takes) time to learn and understand completely.
 
