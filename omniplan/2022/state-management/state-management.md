@@ -8,9 +8,9 @@ This is a problem that we were facing with our previous Angular user interface t
 
 We had a lot of data floating around, data that was needed in many different components and in many different combinations.
 
-Previously this problem was solved by use of a "context" object. An object that contains ***everything*** needed for the application, and was injected into almost every component that we used. And as it was strongly typed it made testing those components a nightmare! Because to inject the test object it needed to be complete. [@GeePawHill](https://twitter.com/GeePawHill) on Twitter talks about awkward tests. These were super awkward!
+Previously this problem was solved by use of a "context" service. A service that contains ***everything*** needed for the application, and was injected into almost every component that we used. And as it was strongly typed it made testing those components a nightmare! Because to inject the test service it needed to be complete. [@GeePawHill](https://twitter.com/GeePawHill) on Twitter talks about awkward tests. These were super awkward!
 
-As well as this context object making it difficult to do any kind of automatic checks - meaning that every change needed complete manual regression testing to be sure that nothing had broken, the data inside of the object had no protection. That meant that anyway it was used could also update the data.
+As well as this context service making it difficult to do any kind of automatic checks - meaning that every change needed complete manual regression testing to be sure that nothing had broken, the data inside of the service had no protection. That meant that anyway it was used could also update the data.
 
 So... No only did we not have automatic checks in place, but every single component could damage every single piece of data - ***and no one would know***
 
@@ -31,13 +31,13 @@ We needed a way to ensure:
 
 ## Enter the Redux Pattern with NgRx
 
-We decided that the best way to go forward was to use the Redux pattern with NgRx. The learning curve was a bit steep, but if used correctly it would solve th problems that we had.
+We decided that the best way to go forward was to use the Redux pattern with NgRx. The learning curve was a bit steep, but if used correctly it would solve the problems that we had.
 
 So what is redux? Put simply, it is a library that allows us to manage our state in one location for each of our modules.
 
 The state is split into 5 parts:
 
-* Store: A central location for all of our state. It is the only place where we can access the state.
+* Store: A central location for all of our state. It is the only place where we can access the state. The data in the store is immutable - it can be replaced, but not changed.
 * Selector: Functions that return a small slice of the state
 * Actions: Functions we can call to change the state
 * Reducers: Functions that tale the current state, an action, and  return a new state
@@ -61,9 +61,11 @@ This is all an order of magnitude simpler than the previous state management.
 
 ## Learning Curve
 
-As mentioned previously, iff there is a downside to using the Redux pattern with NgRx, it is that is more complex to use and learn. The learning curve was very steep for our developers - having previously had no experience using it. The back end developers that do not interact with it daily need assistance to ensure that they are using it correctly.
+As mentioned previously, if there is a downside to using the Redux pattern with NgRx, it is that is more complex to use and learn. The learning curve was very steep for our developers - having previously had no experience using it. The back end developers that do not interact with it daily need assistance to ensure that they are using it correctly.
 
-We went through iterations organizing our state across modules as we were learning how to use it. It caused some rework, but even with that rework it was simpler than the previous context object (which starts life really simple, and gets very complex, very quickly 😅).
+We went through iterations organizing our state across modules as we were learning how to use it. It caused some rework, but even with that rework it was simpler than the previous context service (which starts life really simple, and gets very complex, very quickly 😅).
+
+Another point to mention is the use of observables. NgRx is **very** observable heavy, certainly for the backend developers working this was a culture shock and took (takes) time to learn and understand completely.
 
 We are still learning the best way to use NgRx to manage our state, but we also have a far better application because of it than we had before!
 
