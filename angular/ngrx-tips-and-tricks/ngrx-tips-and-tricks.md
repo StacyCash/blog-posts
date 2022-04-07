@@ -1,5 +1,10 @@
-# NgRx Tips and Tricks
-
+---
+title: NgRx Tips and Tricks
+published: true
+description: Learning how to use NgRx in the right way
+tags: angular, ngrx, tips and tricks, learning
+cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/main/angular/ngrx-tips-and-tricks/cover-image.jpg
+---
 In my day job we use Angular to build our front end application. When we started to rewrite it in 2020 we decided to use NgRx to manage our state. Great choice, and it's made our lives so much better.
 
 But... Are we using it right? I had the pleasure of hosting a wonderful session by [Marko Stanimirović](https://twitter.com/MarkoStDev) last week at [Angular Global Summit'22](https://geekle.us/angular). There are things in here which I wish I knew earlier - and will be looking to see if we can make our app even better!
