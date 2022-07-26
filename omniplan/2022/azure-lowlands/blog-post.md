@@ -14,7 +14,7 @@ This was our first time sponsoring, and having a stand, at a technical conferenc
 
 The decision to be at Azure Lowlands was taken a little late and so we had a rush to decide what we wanted to show at the conference. One question was what goodies we were going to have available on our stand for the attendees. Most people really look forward to the freebies that can be found at a conference, but we also wanted to be as sustainable as possible with what we gave away.
 
-The meant no trinkets that looked cool, but were not really useful. Nothing with electronics that were going to end up in landfill within a couple of weeks. Flashing lights on all sorts of things are great, but when the battery runs out you end up with a really wasteful piece of kit. Of course, we also want something that is going to remind the visitors of Omniplan when they use it over a longer time. So something that is going to be useful...
+This meant no trinkets that looked cool, but were not really useful. Nothing with electronics that were going to end up in landfill within a couple of weeks. Flashing lights on all sorts of things are great, but when the battery runs out you end up with a really wasteful piece of kit. Of course, we also want something that is going to remind the visitors of Omniplan when they use it over a longer time. So something that is going to be useful...
 
 For the short time frame that we had to prepare we went for 3 things:
 
