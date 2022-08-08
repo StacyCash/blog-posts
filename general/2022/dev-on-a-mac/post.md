@@ -1,6 +1,6 @@
 ---
 title: Sometimes you need to take a step back
-published: false
+published: true
 description: The story of me pulling my hair out for no reason when trying to get a MacBook Pro to run Azure Functions (hint: it was my fault 😅)
 tags: development, mistakes 
 cover_image: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/1xjgw6wn0dzqjcr1xpgm.png
