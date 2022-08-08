@@ -1,4 +1,6 @@
-# Omniplan at Azure Lowlands
+---
+Published on Omniplan Blog: https://omniplan.nl/blogs/omniplan-at-azure-lowlands
+---
 
 Summer has arrived, and so the conference season from the first half of the year is over.
 
@@ -23,6 +25,8 @@ For the short time frame that we had to prepare we went for 3 things:
 * Bamboo pens - because even in a paperless world, a pen is still useful!
 
 Whilst Omniplan has never been to a tech conference before, we do have a lot of experience finance conferences, and we have some tools that we can use! One of these is our banner - a wonderful backdrop for our stand! With that and an Omniplan beach mat that we have from a previous company outing we had the static part of our brand ready for the day!
+
+![Omniplan Stand with Rutger and Martijn](https://raw.githubusercontent.com/StacyCash/blog-posts/main/omniplan/2022/azure-lowlands/images/omniplan-stand-rutger-and-martijn.jpeg)
 
 That gave us our stand, where developers from all over the Netherlands could come and talk to our Technical Director, [Rutger](https://twitter.com/Rutix), and one of our tech leads, [Martijn](https://www.linkedin.com/in/martijngribnau/).
 
