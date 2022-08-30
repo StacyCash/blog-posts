@@ -128,3 +128,5 @@ So... SWAs are both awesome for beginners, who just want the ease of deployment 
 In this way we can incorporate SWAs into larger, more complex systems where we need full control to ensure that our apps are behaving as they should do. 
 
 Checkout the [MS Docs](https://docs.microsoft.com/en-us/azure/static-web-apps/build-configuration?tabs=github-actions) for more information on how to configure the Static Web App workflow.
+
+Cover photo by [Lucas Santos](https://unsplash.com/@_staticvoid?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/complex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
