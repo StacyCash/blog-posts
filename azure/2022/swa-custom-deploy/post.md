@@ -27,27 +27,27 @@ Seems that they had a point. But I wasn't going to give up that easily. So... Ch
 Let's start with an out of the bog Azure Static Web App GitHub Workflow Job
 
 ```json
-  build_and_deploy_job:
-    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
-    runs-on: ubuntu-latest
-    name: Build and Deploy Job
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          submodules: true
-      - name: Build And Deploy
-        id: builddeploy
-        uses: Azure/static-web-apps-deploy@v1
-        with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_AMBITIOUS_GROUND_011396E03 }}
-          repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
-          action: "upload"
-          ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
-          # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
-          app_location: "Client" # App source code path
-          api_location: "Api" # Api source code path - optional
-          output_location: "wwwroot" # Built app content directory - optional
-          ###### End of Repository/Build Configurations ######
+build_and_deploy_job:
+if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
+runs-on: ubuntu-latest
+name: Build and Deploy Job
+steps:
+    - uses: actions/checkout@v2
+    with:
+        submodules: true
+    - name: Build And Deploy
+    id: builddeploy
+    uses: Azure/static-web-apps-deploy@v1
+    with:
+        azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_AMBITIOUS_GROUND_011396E03 }}
+        repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
+        action: "upload"
+        ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
+        # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
+        app_location: "Client" # App source code path
+        api_location: "Api" # Api source code path - optional
+        output_location: "wwwroot" # Built app content directory - optional
+        ###### End of Repository/Build Configurations ######
 ```
 
 So what does this do?
@@ -68,20 +68,20 @@ However, if you want to do something more advanced, you can do it. We can tell t
 Let's customize that action to only upload the application to the SWA.
 
 ```json
-      - name: Build And Deploy
-        id: builddeploy
-        uses: Azure/static-web-apps-deploy@v1
-        with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_YELLO_RIVER_13413E103 }}
-          repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
-          action: "upload"
-          ###### Repository/Build Configurations - These values can be configured to match you app requirements. ######
-          # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
-          app_location: "ClientDist/wwwroot" # App source code path
-          api_location: "ApiDist" # Api source code path - optional
-          skip_app_build: true
-          skip_api_build: true
-          ###### End of Repository/Build Configurations ######
+- name: Build And Deploy
+id: builddeploy
+uses: Azure/static-web-apps-deploy@v1
+with:
+    azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_YELLO_RIVER_13413E103 }}
+    repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
+    action: "upload"
+    ###### Repository/Build Configurations - These values can be configured to match you app requirements. ######
+    # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
+    app_location: "ClientDist/wwwroot" # App source code path
+    api_location: "ApiDist" # Api source code path - optional
+    skip_app_build: true
+    skip_api_build: true
+    ###### End of Repository/Build Configurations ######
 ```
 
 On the surface, this looks very similar, but there are some differences:
