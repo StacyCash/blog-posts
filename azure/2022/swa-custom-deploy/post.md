@@ -1,7 +1,7 @@
 ---
 title: Taking Azure Static Web Apps from Out of the Box to Your Complex Pipelines
-published: false
-description: 
+published: true
+description: Azure Static Web Apps are a great way to get simple apps out to the web. But with a little fine tuning you can also take control of the buiold and deploy process to integrate with more complex pipelines!
 tags: SWA, Azure, CICD
 cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/main/azure/2022/swa-custom-deploy/cover-image.jpg
 ---
