@@ -1,6 +1,10 @@
-# Custom SWA Deployment
-
-## Introduction
+---
+title: Taking Azure Static Web Apps from Out of the Box to Your Complex Pipelines
+published: false
+description: 
+tags: SWA, Azure, CICD
+cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/main/azure/2022/swa-custom-deploy/cover-image.jpg
+---
 
 Earlier this year at [AzureLive](https://azurelive.nl) I gave a talk on authentication in Azure Static Web Apps (SWA). Before my talk I was speaking with someone who thought that SWAs were fun, but not something that you could use seriously. The biggest complaint they had: the build process.
 
@@ -8,23 +12,23 @@ Out of the box you get a CI/CD flow set up for you. Every push to your trunk bra
 
 But whilst this does work for simple applications, and for getting people started, if you have a large and complex application - and your SWA is only a small part of that - then how can you run all the processes that you need to?
 
-By this they meant thing like:
+By this they meant things like:
 
 * How do you run your unit tests?
 * If deploying to multiple environments, how do you ensure that the same code is always being deployed?
 * How do you take control over **how** the code is built, when it's all encased in a magic GitHub action?
 
-For the first of these there is a cheat if you still run a small application - simply build the solution and run your unit tests **before** you use the GitHub action. This works, it's what I was doing at the time for my personal website, but it also adds time to the process that I would rather not have for anything serious.
+For the first of these there is a cheat if you still run a small application - simply build the solution and run your unit tests **before** you use the GitHub action. This works, it's what I was doing at the time for my personal website. But it also adds build time to the deploy process that I would rather not have to wait for if building anything serious.
 
-The other two... Well, SWAs come out of the box with support for staging environments - but again, whilst this works really well for smaller application, I can see an app that fits into a larger eco system would be a bit more complex.
+The other two... Well, SWAs come out of the box with support for staging environments - but again, whilst this works really well for smaller applications, I can see an app that fits into a larger eco system would be a bit more complex.
 
-And the last... It's a closed system. You supply the code. The GitHub action figures out how to build it. That;s it.
+And the last... It's a closed system. You supply the code. The GitHub action figures out how to build it. That's it.
 
 Seems that they had a point. But I wasn't going to give up that easily. So... Challenge accepted!
 
 ## Out Of The Box
 
-Let's start with an out of the bog Azure Static Web App GitHub Workflow Job
+Let's start with an out of the bog Azure Static Web App GitHub Workflow Job:
 
 ```json
 build_and_deploy_job:
@@ -52,18 +56,18 @@ steps:
 
 So what does this do?
 
-1. It's triggered when a push occurs on the branch triggering the workflow
-2. It checks out the repository
-3. It uses the `Azure/static-web-apps-deploy@v1` action to do the following
-  a. Build the app, using the code in the `app_location` directory
-  b. Builds the Azure Function app, using the code in the `api_location` directory
-  c. Deploys the app to the Azure Static Web App
+* It's triggered when a push occurs on the branch triggering the workflow
+* It checks out the repository
+* It uses the `Azure/static-web-apps-deploy@v1` action to do the following
+  * Build the app, using the code in the `app_location` directory
+  * Builds the Azure Function app, using the code in the `api_location` directory
+  * Deploys the app to the Azure Static Web App
 
 How it does this, we don't know or care - it just happens. And 99.9% of the time it works and we never have to think about it.
 
 However, if you want to do something more advanced, you can do it. We can tell the Action not to do some of these things. In order to do that we need to look at some options that don't exist out of the box.
 
-## Customising the Action
+## Customizing the Action
 
 Let's customize that action to only upload the application to the SWA.
 
@@ -91,9 +95,9 @@ On the surface, this looks very similar, but there are some differences:
   * `skip_app_build`
   * `skip_api_build`
 
-These 2 options are self explanatory. If you set them to `true`, then the action will skip the build of the app. If you set them to `false`, then the action will build the app.
+These 2 options are self-explanatory. If you set them to `true`, then the action will skip the build of the app. If you set them to `false`, then the action will build the app.
 
-So we are lo longer letting the Action build the app. We simply give a location where the Action can get hold of the built application. This could be an app that has been built, and tested in previous steps.
+So we are no longer letting the Action build the app. We simply give a location where the Action can get hold of the built application. This could be an app that has been built, and tested in previous steps.
 
 Or it could be an app that has been built in a previous job, allowing us to deploy the same compile application to multiple environments.
 
@@ -101,11 +105,11 @@ Or it could be an app that has been built in a previous job, allowing us to depl
 
 So... You take what I have said, and you use it in your own application.
 
-When you do this the firs thing you will notice is that you API calls, if you are using them, will fail.
+When you do this the first thing you will notice is that you API calls, if you are using them, will fail.
 
 Oops. It turns out that that Action does more than simply build and deploy. It also analyses the source code and sets up the SWA accordingly.
 
-As it's no longer building the api, it can't do that. Is it deploying .NET? NodeJS? Who knows.
+As it's no longer building the API, it can't do that. Is it deploying .NET? NodeJS? Who knows.
 
 Well, we do, and by bypassing the Action we need to manually tell the SWA what it is that we are doing.
 
