@@ -99,13 +99,13 @@ These 2 options are self-explanatory. If you set them to `true`, then the action
 
 So we are no longer letting the Action build the app. We simply give a location where the Action can get hold of the built application. This could be an app that has been built, and tested in previous steps.
 
-Or it could be an app that has been built in a previous job, allowing us to deploy the same compile application to multiple environments.
+Or it could be an app that has been built in a previous job, allowing us to deploy the same compiled application to multiple environments.
 
 ## Using This in Real Life
 
 So... You take what I have said, and you use it in your own application.
 
-When you do this the first thing you will notice is that you API calls, if you are using them, will fail.
+When you do this the first thing you will notice is that your API calls, if you are using them, will fail.
 
 Oops. It turns out that that Action does more than simply build and deploy. It also analyses the source code and sets up the SWA accordingly.
 
@@ -129,7 +129,9 @@ By setting that at the top of the config file, our API should start working agai
 
 So... SWAs are both awesome for beginners, who just want the ease of deployment out of the box without having to worry about *how* it actually happens and for developers with more complex workflows that want full control.
 
-In this way we can incorporate SWAs into larger, more complex systems where we need full control to ensure that our apps are behaving as they should do. 
+In this way we can incorporate SWAs into larger, more complex systems where we need full control to ensure that our apps are behaving as they should do.
+
+Also... In my experience this also reduced the time taken to build and deploy the application (at least in my Blazor/.NET Function workflow)
 
 Checkout the [MS Docs](https://docs.microsoft.com/en-us/azure/static-web-apps/build-configuration?tabs=github-actions) for more information on how to configure the Static Web App workflow.
 
