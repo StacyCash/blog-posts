@@ -1,40 +1,20 @@
 # Azure Static Web Apps CLI - API Options
 
-Last week I was presenting at [CloudBurst](http://cloudburst.azure.com), talking about one of my favroutie subjexcts: Azure Static Web Apps!
+Last week I was presenting at [CloudBurst](http://cloudburst.azure.com), talking about one of my favorite subjects: Azure Static Web Apps!
 
-I was giving my quick tour talk. In 60 minutes we go from having no application, to building a Blazor WASM application, with an Azure Function API, deploy it to a new Azure Static Web App and then add authentication.
+At the point of demonstrating how to run the application locally, it kind of went wrong...
 
-One of the steps in this process is showing how to run the application locally.
+The CLI just would not pick up the Azure Functions on a different port to the default of 7071. After trying a few things to solve it on stage, I gave up and just changed the port that Visual Studio was using to host them. A great short term solution, but of course I needed to let the audience know what I did wrong so that they could learn from my mistake.
 
-For those unformiliar, when you deploy an Azure Static Web app you build static files with make up the front end. These can be anything from a static site using plain HTML, to a dynamic application using a SPA framework of somekind.
-
-If data is needed for the application then this can be created using Azure Functions in either .NET or Node.js.
-
-And then there is the glue of the Azure Static Web App that joins these two seperate processes together so that they appear to the outside world as one single system. Without the developer having to connect things up themselves.
-
-Great when running in Azure, but you don't want to deploy your application each and every time you need to debug something 😅
-
-Enter the [Azure Static Web Apps CLI](find this link) (SWA CLI). Whilst this doesn't give us an Azure environment locally, it does allow us to pretend that we do 😊
-
-So what went wrong in the demo during my talk?tlak to the 
-
-Well... When I tried to run the applcation locally I could not get the CLI to pick up the correct port for the Azure Functions
+This is the command I was using. See if you can spot my mistake faster than I did!
 
 ``` ps
 swa start https://localhost:7837 --api-location 7133
 ```
 
-Some of you may notice the problem already, I didn't until after the talk was finished - rather I changed the port that he Azure Functions use to the default for the SWA CLI so that I didn't need to specify it when running the application
+The problem... I used the wrong argument to specify the location of the Azure Functions. There are two ways to solve this problem
 
-``` ps
-swa start https://localhost:7837
-```
-
-A great short term solution, but of course I needed to let the audience know what I did wrong so that they could learn from my mistake.
-
-The problem was that I used the wrong argument to specify the location of the Azure Functions. There are two things that I could/should have done differently
-
-I coulld have specified the entire path to the Azure Functions
+I could have specified the full URL to the Azure Functions with the `--api-location` argument
 
 ``` ps
 swa start https://localhost:7837 --api-location http://localhost:7133
@@ -54,13 +34,52 @@ So... That was my mistake. But let's use it as a learning opportunity! Let's loo
 
 ## --api-location
 
-Let's start with the API location.
+Let's start with the API location. This can be used in two ways:
 
-// running code directly
+- Building and running the code directly
+- Connecting to an existing Azure Functions instance
 
-// Conneting to a development server
+### Building and running the code directly
+
+By using either a relative or absolute path, you can tell the CLI where to find the Azure Functions code. It will use the Azure Function Core Tools to try to build and run the code inside of that directory.
+
+Starting the SWA CLI using a relative path:
+
+``` ps
+swa start https://localhost:7837 --api-location ./api
+```
+
+And using a full path:
+
+``` ps
+swa start https://localhost:7837 --api-location C:\code\swa-app\api
+```
+
+My main use case for this is when I want to just run the application without debugging it - I generally add the `--run` argument to build and run the front end as well.
+
+### Connecting to an existing Azure Functions instance
+
+This is a little less common in my experience (your's may differ 😅), but it can be useful. You can use the `--api-location` argument to connect to an existing API endpoint.
+
+This can be useful if you are connecting to something other than an Azure Function, or want to connect to an existing function instance.
+
+For example, if I am working with an App Service Web Api rather than an Azure Function, then I can start my SWA CLI pointing the API location to the running application by using the URL of the local development service
+
+``` ps
+swa start http://localhost:5001 --api-location http://localhost:5094
+```
+
+If I am connecting to an existing, deployed Azure Function then I can use the URL of the deployed function
+
+``` ps
+swa start http://localhost:5001 --api-location http://localhost:5094
+```
 
 ## --api-port
+
+The other option that I mentioned (and the one that I should have used in my demo 🫣) is the `--api-port` argument.
+
+This does not change the location of the 
 
 // Used in conjunction with --api-location and running code
 
