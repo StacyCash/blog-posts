@@ -50,7 +50,9 @@ And I knew that it was going to work just as well as the first solution. Because
 
 These are examples of where I have managed to use TDD and get code written, working and maintainable using TDD. And with confidence that I could change it in the future.
 
-But there have also been  times when I've not managed to get into the TDD flow and have been left with worse code
+But there have also been  times when I've not managed to get into the TDD flow and have been left with worse code, and no safe way to change it. 
+
+And these all have something on common as well. Kind of the opposite of the cases that worked. I *didn't know* th exact 
 
 I could not think how I wanted to test what I was doing, I couldn't figure out how I wanted to build my code and, well sometimes I guess I just wanted to write it. So... I started to think with the keyboard rather than figuring out what I needed to do before hand.
 

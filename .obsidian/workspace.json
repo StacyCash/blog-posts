@@ -1,0 +1,145 @@
+{
+  "main": {
+    "id": "0f5ab807b6833134",
+    "type": "split",
+    "children": [
+      {
+        "id": "0ef2f4bb1b780bea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2819d9674ae32077",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "general/2022/when-did-tdd-work-for-me/post.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "48885fb3ca75d3c1",
+    "type": "split",
+    "children": [
+      {
+        "id": "03447cf33a87587e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64267d352f3a42a4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6de71eda905b77a5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3bbdd39281bb4a24",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3f9e19d6b74f2a26",
+    "type": "split",
+    "children": [
+      {
+        "id": "9ce382dbad11c83b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5904e6a4f98a2fca",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "general/2022/when-did-tdd-work-for-me/post.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bc6ceb702ab1f51f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "general/2022/when-did-tdd-work-for-me/post.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "66e41159f10ed98a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "688f84cb159d3330",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "general/2022/when-did-tdd-work-for-me/post.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "2819d9674ae32077",
+  "lastOpenFiles": [
+    "general/2022/dev-on-a-mac/post.md",
+    "general/2022/dev-on-a-mac/cover-image.png",
+    "azure/2022/swa-custom-deploy/post.md"
+  ]
+}
