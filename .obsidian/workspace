@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "azure/2022/swa-custom-deploy/post.md",
+            "file": "general/2022/when-did-tdd-work-for-me/post.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "azure/2022/swa-custom-deploy/post.md",
+                "file": "general/2022/when-did-tdd-work-for-me/post.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "azure/2022/swa-custom-deploy/post.md",
+                "file": "general/2022/when-did-tdd-work-for-me/post.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "azure/2022/swa-custom-deploy/post.md"
+                "file": "general/2022/when-did-tdd-work-for-me/post.md"
               }
             }
           }
@@ -129,5 +129,9 @@
     "collapsed": true
   },
   "active": "2819d9674ae32077",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "general/2022/dev-on-a-mac/post.md",
+    "general/2022/dev-on-a-mac/cover-image.png",
+    "azure/2022/swa-custom-deploy/post.md"
+  ]
 }
