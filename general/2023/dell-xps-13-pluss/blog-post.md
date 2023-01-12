@@ -1,6 +1,12 @@
-# Dell XPS 13 Plus Review
-
-## Introduction
+---
+title:Dell XPS 13 Plus Review
+published: false
+description: 6 month review of my Dell XPS 13 Plus - the good, bad and annoying!
+tags: laptop, review, Dell, ultrabook
+# cover_image: https://direct_url_to_image.jpg
+# Use a ratio of 100:42 for best results.
+# published_at: 2023-01-12 11:08 +0000
+---
 
 Last year my work machine got updated, and I was lucky enough to land a Dell XPS 13 Plus.
 
@@ -20,7 +26,7 @@ Now for the long version!
 
 Reviewing a laptop is such a hard thing. When researching a new machine I never seem to be able to find a review of the specifications I am looking for.
 
-And a lot of the time the specs are buried somewhere after you have wasted time reading about the machine 😅 SO lets start with what exactly I am reviewing!
+And a lot of the time the specs are buried somewhere after you have wasted time reading about the machine 😅 So lets start with what exactly I am reviewing!
 
 Dell XPS 13 Plus
 
@@ -35,44 +41,48 @@ Tech wise I went for the best that the given budget would handle focussing on th
 
 Screen-wise I was torn between the beautiful sub 4K OLED and the 4K LCD. I eventually went for the LCD because it has a better brightness. In the summer I work in the garden, and that extra 25% brightness can be really important!
 
-And then there was the colour... The Platinum (silver) is beautiful! However... I;ve had light coloured, white back-lit keyboards before and find it really hard to work with them
-During the day, when the backlight is turned off there isn't a problem. In semi-dark conditions though... It's like typing on a keyboard without symbols. I can do it, but it's not fun. And seeing some reviews of this machine, the same problems were there for these machine as well.
+And then there was the colour... The Platinum (silver) is beautiful! However... I've had light coloured, white back-lit keyboards before and find it really hard to work with them
+During the day, when the backlight is turned off there isn't a problem. In semi-dark conditions though...
 
-If the backlight had a splash of colour in it then it would be awesome, but as is. Nah. Nor for me at least. So I went for the Graphite (grey) option. Still pretty, but not as... Sparkly... 😅
+It's like typing on a keyboard without symbols. I can do it, but it's not fun. And seeing some reviews of this machine, the same problems were there for present.
+
+If the backlight had a splash of colour in it then it would be awesome, but as is. Nah. Nor for me at least.
+
+So I went for the Graphite (grey) option. Still pretty, but not as... Sparkly... 😅
 
 ## Performance
 
 Wowser. Seriously, wowser.
 
-This is a tiny machine that weighs little. And yet... It can do things that my almost top of the line 2020 XPS 15 can't.
+This is a tiny machine that doesn't weigh much. And yet... It can do things that my almost top of the line 2020 XPS 15 can't.
 
-I give tech talks, both online and in person. My studio setup at home is 2x 27" 4K monitors, a CamLink 4K for input from my camera for me to talk into, HD webcam for desk shots, and a Scarlet 2i2 MK3 audio interface for my microphone input.
+I give tech talks, both online and in person. My studio setup at home is 2x 27" 4K monitors + the laptop screen, a CamLink 4K for input from my camera for me to talk into, HD webcam for desk shots, and a Scarlet 2i2 MK3 audio interface for my microphone input.
 
-I've not gotten around to building a streaming machine yet so my laptops have to do *everything*. OBS, multiple Visual Studios, Chrome or demos, and whatever streaming platform the conference is using. 
+I've not gotten around to building a streaming machine yet so my laptops have to do *everything*. OBS, multiple Visual Studios, Chrome windows for demos and tools, and whatever streaming platform the conference is using.
 
 Sharing my OBS Virtual Camera and a screen to StreamYard takes a little-bit of a toll. Using Teams brings everything to a grinding halt. On my XPS 15 I generally drop the resolution on all three screens to HD in order to make it workable.
 
-On this little tiny little machine. Nope. 4K * 3 (with 225% DPI on the shared monitor so the viewers can read it) all the way. It's AWESOME.
+On this little tiny little machine. Nope. 4K * 3 (with 225% DPI on the shared monitor so the viewers can read it) all the way. It's **AWESOME**.
 
-In fact the only thing that seems to make it stutter just as much as every other machine I have used is when ReSharper starts in Visual Studio. It grinds to a halt for 10 tro 20 seconds each and every time... (For my talks I don;t use ReSharper as I try to have as close to the free tooling experience as possible)
+In fact the only thing that seems to make it stutter just as much as every other machine I have used is when ReSharper starts in Visual Studio. It grinds to a halt for 10 tro 20 seconds each and every time... (For my talks I don't use ReSharper as I try to have as close to the free tooling experience as possible)
 
-## Noise
+## Fan Noise
 
 I was terrified for this... I've had a few thin and light laptops that have been spectacular, but when they start to work it's like a jet engine starts on your desktop. And they still throttle too much.
 
-But... In my experience, even when pushing this thing as hard as I can, nope. There is noise, and you can definitely hear the fan, but it's not a loud, intrusive noise. And it's not there all-of-the time. Doable, definitely doable.
+However... In my experience, even when pushing this thing as hard as I can, nope. There is noise, and you can definitely hear the fan, but it's not a loud, intrusive noise. And it's not there all-of-the time. Doable, definitely doable.
 
 ## Heat
 
-That performance though, in such a small package, from an Intel chip does have costs. One of them is heat.
+That performance though, in such a small package, from an Intel chip, and without a jet engine, does have costs. One of them is heat.
 
 I swear I can heat my house and fry an eggs with this machine on full tilt. Even when doing something light, the temperature underneath gets bad, quickly.
 
-On the sofa, in shorts over the summer it was painful to use - in fact I gave up and now use a large Lego Star Wars coffee table book as a laptop stand when needing the full power of the machine whilst working away from a table.
+On the sofa in the summer, wearing shorts, it was literally painful to use - in fact I gave up and now use a large Lego Star Wars coffee table book as a laptop stand when needing the full power of the machine whilst working away from a table.
 
-There is a way around. When using it for light tasks (like writing markdown files for blog posts), I can set it to run cool using Dell's performance tool. You lose a little power (though, honestly, not a huge amount) , and it means that working on my lap again is not a problem.
+There is a way around. When using it for lighter tasks (like writing markdown files for blog posts), I can set it to run cool using Dell's [performance tool](https://www.dell.com/support/home/en-uk/drivers/driversdetails?driverid=17g9j&oscode=w2021&productcode=xps-13-9320-laptop). You lose a little power (though, honestly, not a huge amount) , and it means that working on my lap again is not a problem.
 
-But if you want the full on performance, on your lap, be aware that it's going to get toasty! As a friend said of her
+But if you want the full on performance, on your lap, be aware that it's going to get toasty! As a friend said of hers:
 
 > On the bed you can iron sheets with it
 
@@ -87,55 +97,79 @@ My XPS 15, even at two years old can still go 6 hours or so with light use
 
 This machine... About 4 hours. With heavy use, 2 or 3. Not great.
 
-Again, there are ways that you can improve this. Dim the screen (that makes a huge improvement, but isn't always ideal) and set the machine to work opn both the Dell Performance Cool setting, and Windows "Best Power Efficiency".
+Again, there are ways that you can improve this. Dim the screen (that makes a huge improvement, but isn't always ideal for eye strain) and set the machine to use both the Dell Performance Cool setting, and Windows "Best Power Efficiency" setting.
 
 Again, you lose some of that awesome performance, but also again, for most things it still performs admirably.
 
-But this is not a laptop that you use all day and plug in over the evening, you are going to be connected to a socket a lot of the time. I actually got my self a large power-bank to ensure that when travelling I wouldn't be caught short on power after a few hours.
+But be aware that this is not a laptop that you use all day and plug in over the evening to recharge, you are going to be connected to a socket a lot of the time. I actually got my self a large power-bank to ensure that when travelling I wouldn't be caught short on power after a few hours.
 
-For me this is annoying, but not a deal-breaker. Your experiences will vary!
+For me, this is annoying but not a deal-breaker. Your experiences will vary!
 
 ## Screen
 
 So... That 4k screen that sucks power. Is it worth it?
 
-OMG, YES! My eyes are starting to show their age and failing a little. And yet. I use that 13" 4K screen most of the time at 150% DPI. And can work with 125% or even native 100% if I need lots of screen real estate for something. Though not for long periods of time.
+OMG, YES! My eyes are starting to show their age and failing a little. And yet. I use that 13" 4K screen most of the time at 150% DPI. And can work with 125% or even native 100% if I need lots of screen real estate for something. Though not for long periods of time. But it is sharp enough to try.
 
 And when I'm tired and bump that DPI up a little, say to 200% during the evening, it is beautiful. This is something that it has in common with the XPS 15. When pretending to be FullHD everything is crisp, sharp and just super relaxing on the eyes.
+
+My Dell screens are by far the best of any laptop I've used in years!
+
+## Connectivity
+
+On the face of it, the connectivity of the laptop is not great. There are exactly 2 ports: a left hand Thunderbolt 4 USB C port and a right hand Thunderbolt 4 USB C port.
+
+Not even a 3.5mm socket (another casulty to keeping the 1280p chip cool!).
+
+However, aside from dongle hell (which is a fact with many laptops these days) it's not as bad as it seems. Those ports can work hard!
+
+At home I have a Thumberbolt 3 docking station that everything is connected to (aside from the CamLink 4K because of Windows issues) that also delivers power. So one cable and I get:
+
+- Power
+- 2 * 4K output (as I said this machine can drive 3 screens with ease!)
+- An audio interface for my microphones
+- 1Gb ethernet
+- Audio out
+  -A FullHD webcam
+- Keyboard and other ancillaries
+
+Whilst you do need those docking stations, the throughput is such that it doesn't get slow when running everything through that port!
+
+You can also plus a Display Port monitor directly into each of those USB C ports to get external monitors without the need for a docking station.
 
 ## Sound
 
 I've been using laptops since 1994 and the way that laptop sound has changed over the years is mind-blowing. That first machine didn't even have sound. By the late 90's sound was standard, but really only with headphones or external speakers. Tinny, weedy sound that was better than nothing, but not good.
 
-THen larger laptops started to put bigger speakers in, I had a few in the naughties that had base speakers built into the base and were... Acceptable.
+Then larger laptops started to put bigger speakers in, I had a few in the naughties that had base speakers built into the base and were... Acceptable.
 
-But the sound from modern machines makes these look awful by comparison, and the XPS 13 Plus is no exception. Is it a machine that you are going to listen to concerts on, or get bombastic soundtracks to actions films from? No. But it is perfectly fine for day to day use if you are alone and don't want to use headphones.
+But the sound from modern machines makes these look awful by comparison, and the XPS 13 Plus is no exception. Is it a machine that you are going to listen to concerts on, or get deep and explosive soundtracks to actions films from? No. But it is perfectly fine for day to day use if you are alone and don't want to use headphones.
 
-It's different to my 13" MacBook Pro - which I see reviewers saying are the standard, but not worse. At least I don't think so.
+It's different to my 13" MacBook Pro - which I see reviewers say is the standard for laptop sound, but not worse. At least I don't think so.
 
 Then there is the built-in microphone. I can only go via feedback from my colleagues in Teams here, but... I am told that the sound is crisp, clear, and it filters out noise quite well. Keyboard clicks don't come over and there is no echo from the laptop speakers. It does pick up room sound though - I have been muted when working in the living room and someone makes a coffee 4m away...
 
-For what it is meant for, I don't think that you can ask for more.
+For what the built in microphone is meant for, I don't think that you can ask for more.
 
 ## Typing
 
-Which is a nice segway to the keyboard. This is a standout design feature of the laptop.
+And speakng of typing sound... A nice segway to the keyboard. This is a standout design feature of the laptop.
 
-From the move away to full size keys (away from the Chiclet keyboard) that span the entire width of the chassis.
+From the move to full size keys (away from the Chiclet keyboard) that span the entire width of the chassis. It really gives the laptop presence when open.
 
-The apparently have a slight dish to them to make typing easier and more accurate. For me, it works.
+They apparently have a slight dish to them to make typing easier and more accurate. For me, it works.
 
 My benchmark for typing is my MacBook Pro. Once I bought that I used it constantly for any lengthy text that I needed to type.
 
 Until I got this machine. Keyboard feel is a very personal thing, but this keyboard has just the right pressure and feedback to the keys to make long typing sessions (like writing this post) comfortable.
 
-I do make typos on it, but I've not had a keyboard where that does not happen, so I don't think that I can blame they keyboard for that!
+I do make typos on it, but I've not had a keyboard where that doesn't happen, so I don't think that I can blame they keyboard for that!
 
 I can touch type on it easily, and it didn't take very long at all to get used to. Top marks!
 
 Except... The arrow keys are a pain. Full size left and right keys, but the up and down are only half height and I hit them wrong all the time!
 
-And then there are the function keys. Or rather, they are not function "keys". Due to needing extra space to shift heat from the processor the physical keys have been replaced with capacitive, OLED touch keys.
+I do have to mention the function keys. Or rather, that they are not function "keys". Due to needing extra space to shift heat from the processor the physical keys have been replaced with capacitive, OLED touch keys that are much shallower in the chassis.
 
 Think a MacBook Pro touch bar but without the flexibility. Which I know is [Marmite](https://www.vice.com/en/article/7xxnng/this-gene-determines-whether-you-love-or-hate-marmite) (incidentally, for those who know Marmite - I love it!).
 
@@ -145,13 +179,13 @@ For me, they kind of work. Most of the time. If there is one thing that I wish t
 
 I've read of people who accidentally hit them all the time (because they are capacitive and don't need pressure to work), but this hasn't been my personal experience.
 
-The OLEDs could be stronger though. When working in the garden, in bright sun, they can be hard to see!
+The biggest problem is the brightness of those OLEDs. They could be stronger. When working in the garden, or sitting by a window, with bright sun, they can be hard to see!
 
 ## Trackpad
 
-The other major design decision. The trackpad has no moving parts, like the MacBook. Instead, it is a sheet of glass with multiple haptic feedback motors underneath.
+The other major design decision. The trackpad has no moving parts, like a MacBook. Instead, it is a sheet of glass with multiple haptic feedback motors underneath.
 
-The idea is that whilst the Apple implementation has a single "click", the Dell puts the click close to your fingers. Click with two fingers? Multiple haptic engines fire and if you feel a local click for each finger.
+The idea is that whilst the Apple implementation has a single haptic motor to "click", the Dell puts the click close to your fingers with multiple engines. Click with two fingers? Multiple haptic engines fire and if you feel a local click for each finger.
 
 It's also an edgeless trackpad. Looking at the machine you cannot see where the trackpad starts and ends. Which, whilst looking awesome, also looks like it could be a pain to use. But that hasn't been my experience. It's big enough that it lies nicely under your hand and it there when you need it.
 
@@ -171,9 +205,11 @@ And speaking of logging in. That Windows Hello camera recognises you in the ligh
 
 The same with the fingerprint scanner. It works almost flawlessly for me. Perfect!
 
-## Software annoyances
+## Anoyances
 
 There are some issues though.
+
+### Trackpad Issues
 
 The haptic engine of the trackpad relies on drivers to make the haptic feedback work. And mine went *very* odd one time.
 
@@ -185,15 +221,17 @@ Turn off the feedback completely, and it worked fine, but wasn't as usable.
 
 It took me uninstalling the drivers completely, restarting and reinstalling them to fix the issue. Annoying. Only once in 6 months, but it is one of those things that makes you wonder when it's going to happen again.
 
+### Proximity Sensors
+
 Those proximity sensors are also controlled in the most ridiculous way.
 
 They don't are not included in any of the "normal" tools/bloatware you get with a Dell. They can (as far as I can find) only be controlled using the "My Dell" application.
 
 Great when the machine is new out of the box, and it's available. Not so much if you ever have to clean install the machine, even using the recovery partition of the machine!
 
-You cannot download this from the Dell site, you **have** to use the Windows store. That is annoyance one - I'd like to have it as a simple download and available to install at will.
+You cannot download this from the Dell site, you **have** to use the Windows store. That is an annoyance - I'd like to have it as a simple download and available to install at will.
 
-However... However, after a clean install it simply refuses to install from the Windows store.
+However... After a clean install it's more than just an annoyance. It simply refuses to install from the Windows store.
 
 You can see it in the store, it even says it's compatible with the machine, but there is no install button visible and no information on **why** it's not available.
 
@@ -203,7 +241,7 @@ This took a look of Googling for different terms, reading that the machine works
 
 For the Windows Store to allow you to install the machine you need to add a couple of registry keys that mark your machine as a Dell laptop.
 
-The commands below are the first that I found, link to the original post below. They set 2 keys for the Windows Store. 
+The commands below are the first that I found, link to the original post below. They set 2 keys for the Windows Store.
 
 - 1 to let Windows Store know that you machine is made by dell
 - 1 to let Windows Store know that it is an XPS machine
@@ -215,7 +253,7 @@ C:\WINDOWS\system32>REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Curre
 
 https://www.dell.com/community/Productivity-Software/Can-t-install-My-Dell-from-Windows-Store/m-p/8084874/highlight/true#M132246:~:text=The%20following%20solution,done%20%5Bpress%20Enter%5D%20%3D
 
-However... This didn't work for me, rather I had to set the `StoreContentModifier` to `DELL_INSPIRON` before it would let me install the software
+However... This didn't quite work for me, rather I had to set the `StoreContentModifier` to `DELL_INSPIRON` before it would let me install the software
 
 ``` regexp
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Store]
@@ -225,15 +263,15 @@ However... This didn't work for me, rather I had to set the `StoreContentModifie
 
 Once there everything starts to work again as you would expect. But users should not have to play with the Windows Registry to get a machine doing what it is supposed to do!
 
-## Scuff Marks
+### Scuff Marks
 
-Another disappointment with the machine is how quickly it got scuffed. That graphite colour is paint on an aluminium chassis, and it does not stand up to day-to-day use.
+The final disappointment with the machine is how quickly it got scuffed. That graphite colour is a coating on an aluminium chassis, and it does not stand up to day-to-day use.
 
 The leading edge has chips in the paint where it's put into a laptop bag frequently.
 
 Not a show-stopper, but for the price of the machine I would have expected better.
 
-It's worth saying that my use case here is not normal. I generally have more than one machine, and a portable screen in the bag at the same time.
+It's worth saying that my use case here is not normal. I generally have more than one machine, and a portable screen in the bag at the same time when travelling.
 
 But even then, other machines I've done the same with haven't suffered the same issues, so I really think it's a problem with the coating Dell use.
 
