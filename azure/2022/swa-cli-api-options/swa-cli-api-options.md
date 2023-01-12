@@ -59,7 +59,7 @@ My main use case for this is when I want to just run the application without deb
 
 ### Connecting to an existing Azure Functions instance
 
-This is a little less common in my experience (your's may differ 😅), but it can be useful. You can use the `--api-location` argument to connect to an existing API endpoint.
+This is a little less common in my experience (yours may differ 😅), but it can be useful. You can use the `--api-location` argument to connect to an existing API endpoint.
 
 This can be useful if you are connecting to something other than an Azure Function, or want to connect to an existing function instance.
 
