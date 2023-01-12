@@ -1,9 +1,9 @@
 ---
 title:Dell XPS 13 Plus Review
-published: false
+published: true
 description: 6 month review of my Dell XPS 13 Plus - the good, bad and annoying!
 tags: laptop, review, Dell, ultrabook
-# cover_image: https://direct_url_to_image.jpg
+cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/main/general/2023/dell-xps-13-pluss/cover%20image.jpeg
 # Use a ratio of 100:42 for best results.
 # published_at: 2023-01-12 11:08 +0000
 ---
