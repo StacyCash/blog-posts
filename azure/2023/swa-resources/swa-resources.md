@@ -1,9 +1,18 @@
+
+DEV Community 👩‍💻👨‍💻
+Edit Post - DEV Community 👩‍💻👨‍💻
+DEV Community 👩‍💻👨‍💻
+Create Post
+Edit
+Preview
+
+ Upload imageNo file chosen
 ---
 title: Azure Static Web App Resources
-published: false
+published: true
 description: A selection of Azure Static Web App Resrouces
 tags: azure, swa, learning
-cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/main/azure/2023/swa-resources/cover-image.jpg
+cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/main/azure/2023/swa-resources/cover-image%20(Large).jpg
 # Use a ratio of 100:42 for best results.
 # published_at: 2023-01-25 14:38 +0000
 ---
@@ -61,3 +70,11 @@ You can find the documentation [here](https://learn.microsoft.com/en-us/cli/azur
 ## Notes
 
 These are all resources that I use when working with Azure Static Web Apps. if you think that anything is missing or could be improved please feel free to reach out to me on [Twitter](https://twitter.com/stacy_cash), [LinkedIn](www.linkedin.com/in/stacycash), or [Mastodon](https://tech.lgbt/@StacyClouds)
+
+You are currently using the basic markdown editor that uses Jekyll front matter. You can also use the rich+markdown editor you can find in UX settings.
+Editor Basics
+Use Markdown to write and format posts.
+Commonly used syntax
+Embed rich content such as Tweets, YouTube videos, etc. Use the complete URL: {% embed https://... %}. See a list of supported embeds.
+In addition to images for the post's content, you can also drag and drop a cover image.
+Save changes
