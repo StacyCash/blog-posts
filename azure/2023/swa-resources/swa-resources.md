@@ -3,7 +3,7 @@ title: Azure Static Web App Resources
 published: false
 description: A selection of Azure Static Web App Resrouces
 tags: azure, swa, learning
-# cover_image: https://direct_url_to_image.jpg
+cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/main/azure/2023/swa-resources/cover-image.jpg
 # Use a ratio of 100:42 for best results.
 # published_at: 2023-01-25 14:38 +0000
 ---
