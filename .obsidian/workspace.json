@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "general/2022/when-did-tdd-work-for-me/post.md",
+                "file": "general/2023/surface-laptop-studio-2/first-impressions/blogpost.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,6 +64,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "837b4020512c034f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "general/2022/when-did-tdd-work-for-me/post.md",
+                "file": "general/2023/surface-laptop-studio-2/first-impressions/blogpost.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "general/2022/when-did-tdd-work-for-me/post.md",
+                "file": "general/2023/surface-laptop-studio-2/first-impressions/blogpost.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "general/2022/when-did-tdd-work-for-me/post.md"
+                "file": "general/2023/surface-laptop-studio-2/first-impressions/blogpost.md"
               }
             }
           }
@@ -136,10 +144,20 @@
     "width": 300,
     "collapsed": true
   },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
   "active": "da3cfe358f3707e6",
   "lastOpenFiles": [
-    "().md",
     "general/2022/when-did-tdd-work-for-me/post.md",
+    "().md",
     "general/2022/dev-on-a-mac/post.md",
     "general/2022/dev-on-a-mac/cover-image.png",
     "azure/2022/swa-custom-deploy/post.md"
