@@ -3,7 +3,7 @@ title: 4CEE October Meetup
 published: false
 description: My first talk since February!
 tags: community, speaking
-# cover_image: https://direct_url_to_image.jpg
+cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/main/talks/2023/4cee/cover-image.jpg
 # Use a ratio of 100:42 for best results.
 # published_at: 2023-10-23 09:46 +0000
 ---
@@ -23,6 +23,8 @@ Before I gave my talk [Marc Duiker](https://www.linkedin.com/in/mduiker/) gave a
 Then came [Annemarie Pannekoek](https://www.linkedin.com/in/annemariepannekoek/) who gave a lightning talk about accessibility, a subject that I try to catch up on whenever possible at conferences (it's an area that IT really needs to improve on). It was Annemarie's first talk and she did absolutely amazingly! I hope I get to see her talk again in the future.
 
 Then came my turn. I was feeling quite ill - I don't think that I will ever get over stage fright and being away for so long seems to have multiplied it! But, once I started talking it felt amazing. I even managed to throw in the odd joke (especially when I did something wrong 😅)
+
+![Stacy and Arlean laughing](https://raw.githubusercontent.com/StacyCash/blog-posts/main/talks/2023/4cee/presenting.jpg)
 
 I'm still not up to traveling, that much I know. And I don't think that I could do this too often. But an occasional talk (say 1x per month) seems like it's on the cards again and I can't wait to get back into it!
 
