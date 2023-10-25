@@ -1,14 +1,14 @@
 ---
 title: Microsoft Surface Laptop Studio 2 - First Impressions
-published: false
+published: true
 description: Look over the Surface Laptop Studio 2 and my first impressions
 tags: review, laptop, microsoft
 cover_image: https://github.com/StacyCash/blog-posts/blob/main/general/2023/surface-laptop-studio-2/first-impressions/cover-image_laptop.jpg?raw=true
 # Use a ratio of 100:42 for best results.
-# published_at: 2023-10-25 14:52 +0000
+published_at: 2023-10-25 15:00
 ---
 
-***Full Disclosure:** Microsoft sent me the review unit for me to use. I am not being paid for the review, and opinions here are not influenced by Microsoft*
+*__Full Disclosure:__ Microsoft sent me the review unit for me to use. I am not being paid for the review, and opinions here are not influenced by Microsoft*
 
 I was lucky enough a week or so ago to have the use of a Surface Laptop Studio 2 (say that 10 times quickly!) for 24 hours. It was a great experience, and actually I wanted to try it a little longer. So... Microsoft kindly sent me a review unit to use for a couple of weeks.
 
@@ -85,9 +85,9 @@ And then we have that trick folding! In the past, I have used a HP Spectre x360.
 
 The Surface Laptop Studio 2 works differently. That backplate I mentioned earlier detaches at the base and the screen comes forward - covering the keyboard, but leaving the touchpad usable - in order to go to the tent stand.
 
-![Surface Laptop Studio 2 in tent mode](https://github.com/StacyCash/blog-posts/blob/main/general/2023/surface-laptop-studio-2/first-impressions/cover-inage.jpg?raw=true)
+![Surface Laptop Studio 2 in tent mode](https://github.com/StacyCash/blog-posts/blob/main/general/2023/surface-laptop-studio-2/first-impressions/tent-view.jpg?raw=true)
 
-And to convert to a tablet, you fold it completely back on itself. so that it is flat on the keyboard.
+And to convert it to a tablet, you fold it completely back on itself. so that it is flat on the keyboard.
 
 ![Surface Laptop Studio 2 in tablet mode](https://github.com/StacyCash/blog-posts/blob/main/general/2023/surface-laptop-studio-2/first-impressions/tablet-view.jpg?raw=true)
 
@@ -119,7 +119,7 @@ The SSD is Gen4, so the machine feels snappy enough when in use.
 
 In fact, so far there has only been one place where the performance seems lacking. Web browsers. Some animations are not as good as they should be, and opening a downloaded file takes that long you end up assuming that the click didn't happen. In a way that doesn't happen when opening files directly from the File Explorer or in a terminal. It's not the end of the world, but it is noticeable.
 
-The best part of the performance though... It is quiet! The XPS 15 isn't loud, but you hear the fans often. I've not heard the fan yet! And yet... It's also not hot. I don't know if that is because there is more airflow keeping the components cool, or the chassis is better at distributing the heat, but even when playing a game (something where the fans on the XPS really start blasting) there was barely any noise. It makes the machine an absolute pleasure to use.
+The best part of the performance though... It is both cool and quiet! The XPS 15 isn't loud, but you hear the fans often. I've not heard the fan yet! And yet... It's also not hot. I don't know if that is because there is more airflow keeping the components cool, or the chassis is better at distributing the heat, but even when playing a game (something where the fans on the XPS really start blasting) there was barely any noise. It makes the machine an absolute pleasure to use. Especially the cool aspect! Not as cool as my MacBook Pro (but, seriously, what stays as cool as Apple silicon?) but by far the best Windows laptop I have used.
 
 ## Connectivity
 
