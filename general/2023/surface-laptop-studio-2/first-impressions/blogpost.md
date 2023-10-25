@@ -3,7 +3,7 @@ title: Microsoft Surface Laptop Studio 2 - First Impressions
 published: false
 description: Look over the Surface Laptop Studio 2 and my first impressions
 tags: review, laptop, microsoft
-# cover_image: https://direct_url_to_image.jpg
+cover_image: https://github.com/StacyCash/blog-posts/blob/main/general/2023/surface-laptop-studio-2/first-impressions/cover-image.jpg?raw=true
 # Use a ratio of 100:42 for best results.
 # published_at: 2023-10-25 14:52 +0000
 ---
@@ -38,11 +38,12 @@ The keyboard deck sticks over the base of the laptop on all sides. This is disti
 
 Vents are not underneath the laptop, meaning that you can actually use it on your lap (all my machines with vents underneath don't really work well when you block half the vents with your thighs). More about that later.
 
-***TODO Side View Here***
+![Sode view of Surface Laptop Studio 2](https://github.com/StacyCash/blog-posts/blob/main/general/2023/surface-laptop-studio-2/first-impressions/side-view.jpg?raw=true)
 
 The screen is about double the width of other laptops I have. There is a sheet of metal, and then a screen underneath. This is needed for the trick folding needed for the conversion from a laptop, to "tent", to a tablet. The screen is also a little smaller than the sheet behind the lid giving a very small lip running around the edge - again, I think it looks quite neat, but this is a totally subjective thing.
 
-***TODO Corner view***
+![Corner of Surface Laptop Studio 2 showing the way the lid closes](https://github.com/StacyCash/blog-posts/blob/main/general/2023/surface-laptop-studio-2/first-impressions/corner-view.jpg?raw=true)
+
 
 ## Keyboard/Trackpad
 
@@ -82,11 +83,11 @@ And then we have that trick folding! In the past, I have used a HP Spectre x360.
 
 The Surface Laptop Studio 2 works differently. That backplate I mentioned earlier detaches at the base and the screen comes forward - covering the keyboard, but leaving the touchpad usable - in order to go to the tent stand.
 
-*** TODO Tent view***
+![Surface Laptop Studio 2 in tent mode](https://github.com/StacyCash/blog-posts/blob/main/general/2023/surface-laptop-studio-2/first-impressions/cover-inage.jpg?raw=true)
 
 And to convert to a tablet, you fold it completely back on itself. so that it is flat on the keyboard.
 
-*** TODO Tablet***
+![Surface Laptop Studio 2 in tablet mode](https://github.com/StacyCash/blog-posts/blob/main/general/2023/surface-laptop-studio-2/first-impressions/tablet-view.jpg?raw=true)
 
 > I've also got use of the Slim Pen 2 for in tablet mode. The storage/charging for this is *awesome*. It attaches magnetically under the lip at the front of the laptop, which also charges it. Lots of laptops/tablets attach the pen this way but the pen never stays put. Not so here, the combination of that lip and quite strong magnets means that (so far) I've never accidentally knocked the pen off of the laptop. I cannot say the same for my HP tilt pen or Apple Pencil 2.
 
@@ -94,7 +95,7 @@ There is more of a bezel than on other laptops I've used recently, but still les
 
 Speaking of bezels. There is an interesting design choice for the corner of the screens. It's rounded, to match the lid of the laptop. The effect looks great, it makes the screen really seem like a designed part of the laptop rather than just a screen stuck to the machine. But... You do lose some screen in the process - only a few pixels, and nothing that is going to cost usability, but enough that it looks odd when the mouse is in the top corner of the screen.
 
-*** TODO Corner screen***
+![Curved corner bezel of Surface Laptop Studio 2](https://github.com/StacyCash/blog-posts/blob/main/general/2023/surface-laptop-studio-2/first-impressions/screen-corner.jpg?raw=true)
 
 ## Camera
 
