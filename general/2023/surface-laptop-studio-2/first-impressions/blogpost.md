@@ -34,6 +34,8 @@ That use of cardboard hasn't affected the support for the machines though. It wa
 
 Once we have the laptop of out the box, what does it look like? Well... Whilst I never used a Surface Laptop Studio (first gen), from the pictures that I have seen, it looks very similar.
 
+![Surface Laptop Studio 2 in laptop mode](https://github.com/StacyCash/blog-posts/blob/main/general/2023/surface-laptop-studio-2/first-impressions/cover-image.jpg?raw=true)
+
 The keyboard deck sticks over the base of the laptop on all sides. This is distinctive, I like it, but of course, it's entirely subjective. 
 
 Vents are not underneath the laptop, meaning that you can actually use it on your lap (all my machines with vents underneath don't really work well when you block half the vents with your thighs). More about that later.
