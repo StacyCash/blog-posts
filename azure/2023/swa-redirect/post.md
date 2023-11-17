@@ -1,4 +1,10 @@
-# Redirecting with Static Web Apps
+---
+title: Contact information in a world post Twitter
+published: false
+description: Using the redirect feature of Azure Static Web Apps I set up a redirect to simplify my LinkedIn profile URL so that attendees can still contact me simply after I didn't use my Twitter profile anymore
+tags: azure, staticwebapps, linkedin, speaking
+cover_image: https://github.com/StacyCash/blog-posts/blob/main/azure/2023/swa-redirect/cover-image.jpg?raw=true
+---
 
 The demise of Twitter has hit me in multiple ways...
 
