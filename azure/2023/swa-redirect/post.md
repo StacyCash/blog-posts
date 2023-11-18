@@ -22,7 +22,7 @@ The first 2 are the ones where I think that I am best contactable, so those are 
 
 BlueSky is easy, my handle is literally my domain, but LinkedIn is a pain. The URL is long and because of the way LinkedIn search (doesn't) work, you can't rely on the profile name to find it.
 
-So I decided thought maybe a better way of getting there would be to redirect from my site, and because it's hosted on an [Azure Static Web App](https://learn.microsoft.com/en-us/azure/static-web-apps/overview?wt.mc_id=DT-MVP-5003925) it's also really easy to do!
+So I decided maybe a better way of getting there would be to redirect from my site, and because it's hosted on an [Azure Static Web App](https://learn.microsoft.com/en-us/azure/static-web-apps/overview?wt.mc_id=DT-MVP-5003925) it's also really easy to do!
 
 ## Route Management
 
