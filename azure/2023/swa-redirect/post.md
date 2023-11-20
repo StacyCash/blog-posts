@@ -1,16 +1,16 @@
 ---
-title: Contact information in a world post-Twitter
-published: false
+title: Contact Information in a post-Twitter World Using Azure Static Web Apps
+published: true
 description: Using the redirect feature of Azure Static Web Apps I set up a redirect to simplify my LinkedIn profile URL so that attendees can still contact me simply after I didn't use my Twitter profile anymore
 tags: azure, staticwebapps, linkedin, speaking
 cover_image: https://github.com/StacyCash/blog-posts/blob/main/azure/2023/swa-redirect/cover-image.jpg?raw=true
 ---
 
-The demise of Twitter has hit me in multiple ways...
+I need a new contact slide for my presentations. This is because the demise of Twitter has hit me in multiple ways...
 
-It was a place where I met a lot of my online friends, where I talked tech with people and (because I did my very best not to get onto the wrong side of it) it was a nice place to spend time.
+It was a place where I met a lot of my online friends, where I talked tech with people, and (because I did my very best not to get onto the wrong side of it) it was a nice place to spend time.
 
-It was also my primary contact point for the community. I had open DMs (which was not always great) and had some great conversations there with people who I met at conferences, or who saw my content.
+But it was also my primary contact point for the development community. I had open DMs (which was not always great), and had some great conversations there with people who I met at conferences or who saw my content.
 
 These days, I no longer feel that (your mileage may vary, but I no longer like it) and so I spend way less time there.
 
@@ -20,7 +20,7 @@ Online I have 3 places where I am present. [BlueSky](https://bsky.app/profile/st
 
 The first 2 are the ones where I think that I am best contactable, so those are going to replace Twitter on my slides, along with a link to my [personal site](stacy-clouds.net)
 
-BlueSky is easy, my handle is literally my domain, but LinkedIn is a pain. The URL is long and because of the way LinkedIn search (doesn't) work, you can't rely on the profile name to find it.
+BlueSky is easy as my handle is literally my domain, but LinkedIn is a pain. The URL is long and because of the way LinkedIn search (doesn't) work, you can't rely on the profile name to find it.
 
 So I decided maybe a better way of getting there would be to redirect from my site, and because it's hosted on an [Azure Static Web App](https://learn.microsoft.com/en-us/azure/static-web-apps/overview?wt.mc_id=DT-MVP-5003925) it's also really easy to do!
 
