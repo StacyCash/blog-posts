@@ -30,3 +30,9 @@ But I can count on one hand how often I use the original charger with my Laptops
 - My studio. I use a TS4 docking station that provides enough power to charge the Surface. But... Nope. It's a slow charger to this laptop
 
 I have no idea why there is this limitation. I can't help but think that the Surface connector should have just been retired and proper USB-C charging used...
+
+## Noise
+
+Fan noise on the surface is amazing! Second only to my MacBook Pro M1 (which, let's face it is ARM vs x86 and not a fair comparison!)
+
+With the space given to airflow under the machine it feels like in day to day use the fans barely start. And when in a video call, or streaming and making the machine work they start but are far, far quieter than, for example, my Dell XPS 15 9520 - and that in itself isn't the noisiest machine I have used bu a long stretch - 55Db. ish.)
