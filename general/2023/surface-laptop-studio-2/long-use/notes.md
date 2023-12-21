@@ -35,4 +35,4 @@ I have no idea why there is this limitation. I can't help but think that the Sur
 
 Fan noise on the surface is amazing! Second only to my MacBook Pro M1 (which, let's face it is ARM vs x86 and not a fair comparison!)
 
-With the space given to airflow under the machine it feels like in day to day use the fans barely start. And when in a video call, or streaming and making the machine work they start but are far, far quieter than, for example, my Dell XPS 15 9520 - and that in itself isn't the noisiest machine I have used bu a long stretch - 55Db. ish.)
+With the space given to airflow under the machine it feels like in day to day use the fans barely start. And when in a video call, or streaming and making the machine work they start but are far, far quieter than, for example, my Dell XPS 15 9520 - and that in itself isn't the noisiest machine I have used bu a long stretch - 55Db. ish.) At the time of writing I could not get the Surface to make enough noise to compete with the XPS 15. I had to hold it to my ear to ensure that the fans were on... That's not that it doesn't make noise. Just that I with the dell making noise I could not hear it... Will retest.
