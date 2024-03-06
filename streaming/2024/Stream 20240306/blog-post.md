@@ -1,4 +1,12 @@
-# First Stream
+---
+title: Back to streaming! Stream 2024-03-06
+published: true
+description: An overview of my first stream of 2024, and my plans for the coming months.
+tags: dotnet, streaming, health
+cover_image: https://direct_url_to_image.jpg
+# Use a ratio of 100:42 for best results.
+# published_at: 2024-03-06 14:19 +0000
+---
 
 After a long time away I finally managed to make it back to streaming today. It felt... Great. But also exhausting!
 
