@@ -1,10 +1,9 @@
 ---
 title: Guest Lecture for Delta-N at Haagse Hogeschool in Den Haag
-published: false
+published: true
 description: 
 tags: pairprogramming, lecture, students, community
-# cover_image: https://direct_url_to_image.jpg
-# Use a ratio of 100:42 for best results.
+cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/main/general/2024/guest-lecture-2023/cover-image.jpg
 # published_at: 2024-03-11 15:28 +0000
 ---
 
