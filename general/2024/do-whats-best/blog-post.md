@@ -8,7 +8,7 @@ cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/main/general
 
 Before we can start with the main thread of this post I need to take you back to the early 90s. I was a teenager, and had no access to learning materials for software development. Or a home computer for that matter...
 
-But I did have one awesome teacher who went out of his way to help me with my interest in programming, he stayed late after school and gave me private lessons on his own time. An I was so proud of the things that I made computers do.
+But I did have one awesome teacher who went out of his way to help me with my interest in programming, he stayed late after school and gave me private lessons on his own time. And I was so proud of the things that I made computers do.
 
 However, making computers do fun things didn't quite grab me in the way that I would have hoped. Sure, it was fun - but I wasn't solving anything. So it was all a bit... Superficial.
 
@@ -16,7 +16,7 @@ Fast forward a couple of years and I was in 6th form taking an IT class and work
 
 In my head I had this amazing stock control system that would count when things were used, tell them when they needed to order new things, and, you know, just be *amazing*. They shot this idea down pretty quickly. It just wasnt something that they needed. Not only would it be hideously complex, they were so well oiled in their processes that they didn't need it.
 
-What they did need was a way of knowing where their stock was... They had about 20 rolling racks in their stores and inventory was all over the place, and moved as it made sense. Every 3 months they did a stock take that would take days to complete. Could I write something where in their next stock take they could enter where they found things, and then from then on just print off a list in order of location that they could use to check that everything was where it should be?
+What they did need was a way of knowing where their stock was... Stock takes took days to complete because they had to find each item in the stores. Could I write a stock location system instead, and print off a list in order of location that they could use to to manage the stock checks?
 
 Not as "wow", but yes, absolutely. I made an application in turbo Pascal, installed it on their computers (via 3.5" disks 😅) and they tried it out. Their 3 day stock take was reduced to 3 hours. Result!
 
@@ -30,7 +30,7 @@ Well... When I say I keep my mind on how my code will affect a user, I mean it. 
 
 OK, maybe not the best choice of words 🤣, but you get the idea, right?
 
-Now we come to today. Since the rise of ChapGTP et al a couple of years ago the amount of AI projects out there has skyrocketed. And I don't think it's for the, er, greater good. I think it's for the greater profit at the expense of the people. And I think that's a problem.
+Now we come to today. Since the rise of ChapGTP, and others, a couple of years ago the amount of AI projects out there has skyrocketed. And I don't think it's for the, er, greater good. I think it's for the greater profit at the expense of the people. And I think that's a problem.
 
 I'm not saying that AI is bad, or that it should be stopped. I'm saying that we need to make sure that it's used for the right reasons. We need to make sure that it's used to make the world a better place, not just to make a few people richer.
 
