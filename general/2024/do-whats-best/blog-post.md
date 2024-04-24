@@ -48,5 +48,5 @@ I used ChatGPT to help me build a stand for my cordless vacuum cleaner (out of s
 
 This is how we should be using AI in our projects. Not because AI is cool, or how much it can save a company at the expense of it's users, but because it can help us solve problems and make the world a better place.
 
-Photo by <a href="https://unsplash.com/@clarktibbs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Clark Tibbs</a> on <a href="https://unsplash.com/photos/do-something-great-neon-sign-oqStl2L5oxI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+Cover Photo by <a href="https://unsplash.com/@clarktibbs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Clark Tibbs</a> on <a href="https://unsplash.com/photos/do-something-great-neon-sign-oqStl2L5oxI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
   
