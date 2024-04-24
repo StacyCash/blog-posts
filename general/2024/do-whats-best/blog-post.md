@@ -3,9 +3,7 @@ title: AI - Do it for the user
 published: false
 description: AI is here, and it's not going away. So why don't we figure out how to make it work for us?
 tags: ai, improvement, user-experience, social-contracts
-# cover_image: https://direct_url_to_image.jpg
-# Use a ratio of 100:42 for best results.
-# published_at: 2024-03-11 15:28 +0000
+cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/main/general/2024/do-whats-best/cover-picture.jpg
 ---
 
 Before we can start with the main thread of this post I need to take you back to the early 90s. I was a teenager, and had no access to learning materials for software development. Or a home computer for that matter...
@@ -28,7 +26,7 @@ So... This is a cute story and all, but what's the point? And what does it have 
 
 Well... When I say I keep my mind on how my code will affect a user, I mean it. It causes friction because in my mind my code is not for the people paying me. It's for the users, or even the customers of the people paying me. I will not write code that I think will make an end users life, or that of their customers or society in general worse. As software developers we have a responsibility to make sure that what we are doing is for the greater good. I have had, er, "discussions" with managers and colleagues over the years because of this.
 
-![Hot Fuzz villages saying "The Greater good"]()
+![Hot Fuzz villages saying "The Greater good"](https://raw.githubusercontent.com/StacyCash/blog-posts/main/general/2024/do-whats-best/The%20Greater%20Good.gif)
 
 OK, maybe not the best choice of words 🤣, but you get the idea, right?
 
