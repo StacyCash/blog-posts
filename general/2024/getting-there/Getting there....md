@@ -8,7 +8,7 @@ cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/main/general
 # published_at: 2024-06-25 19:55 +0000
 ---
 
-Last week I had an assessment from the government because I have been on sick leave for so long. I have no idea what the result is; I'll find out in time I guess.
+Since February 2022 I have been on sick leave due to Long Covid, [POTS](https://en.wikipedia.org/wiki/Postural_orthostatic_tachycardia_syndrome), and Chronic Fatigue. Last week I had an assessment from the government because I have been on sick leave for so long. I have no idea what the result is; I'll find out in time I guess.
 
 It's hard to think that it's been 16 months since I was first ill, and mind blowing that I'm still only working 4 to 5 hours a day.
 
@@ -16,7 +16,7 @@ When I was first ill, I was so tired that I basically just collapsed on the sofa
 
 The specialist clinic that is treating me in Amsterdam tries new treatments every 6 weeks. After 3 weeks we have a chat about progress, and at the 6 week mark decide whether to continue or not before trying something else.
 
-First they tried to get my [POTS](https://en.wikipedia.org/wiki/Postural_orthostatic_tachycardia_syndrome) under control. So this time last year I was starting to get bored again. But still didn't have the energy, or brain capacity, to do much.
+First they tried to get my POTS under control. So this time last year I was starting to get bored again. But still didn't have the energy, or brain capacity, to do much.
 
 So... I thought a good option would be to work through the book I wrote back in 2022. Seeing as I wrote it, I must be able to do it. At least that was my thought process...
 
