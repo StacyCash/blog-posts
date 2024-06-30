@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "general/2023/surface-laptop-studio-2/first-impressions/blogpost.md",
+                "file": "general/2024/getting-there/Getting there....md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "general/2023/surface-laptop-studio-2/first-impressions/blogpost.md",
+                "file": "general/2024/getting-there/Getting there....md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "general/2023/surface-laptop-studio-2/first-impressions/blogpost.md",
+                "file": "general/2024/getting-there/Getting there....md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "general/2023/surface-laptop-studio-2/first-impressions/blogpost.md"
+                "file": "general/2024/getting-there/Getting there....md"
               }
             }
           }
@@ -156,6 +156,9 @@
   },
   "active": "da3cfe358f3707e6",
   "lastOpenFiles": [
+    "general/2023/surface-laptop-studio-2/first-impressions/blogpost.md",
+    "general/2024/getting-there/Getting there....md",
+    "general/2024/getting-there",
     "general/2022/when-did-tdd-work-for-me/post.md",
     "().md",
     "general/2022/dev-on-a-mac/post.md",
