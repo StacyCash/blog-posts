@@ -3,7 +3,7 @@ title: Getting there. Ish...
 published: false
 description: Trying to return to life as normal
 tags: csharp, book, illness, recovery
-cover_image: https://direct_url_to_image.jpg
+cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/main/general/2024/getting-there/cover-image.jpg
 # Use a ratio of 100:42 for best results.
 # published_at: 2024-06-25 19:55 +0000
 ---
