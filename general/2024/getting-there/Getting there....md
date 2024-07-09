@@ -1,6 +1,6 @@
 ---
 title: Getting there. Ish...
-published: false
+published: true
 description: Trying to return to life as normal
 tags: csharp, book, illness, recovery
 cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/main/general/2024/getting-there/cover-image.jpg
@@ -28,7 +28,7 @@ Without a doubt that was the lowest time of the illness. The way that I saw it w
 
 I love technology, and software development! And it's not just a career; it's been a hobby since I was in single digits! At that time I wondered if I'd ever work again.
 
-But since autumn last year I have been slowly getting back into it. I've given some talks, streamed some coding, and other IT stuff. And, whilst it's only 4 to 5hours a day, I am working now and starting to feel a little useful again.
+But since autumn last year I have been slowly getting back into it. I've given some talks, streamed some coding, and other IT stuff. And, whilst it's only 4 to 5 hours a day, I am working now and starting to feel a little useful again.
 
 It's not easy, and sometimes my brain fog means that things that should take an hour or 2 can take me a day or more. But other days I can get more done than I hoped. Ups and downs.
 
