@@ -3,7 +3,7 @@ title: Unleashing My Passion for Azure Static Web Apps! 🚀
 published: true
 description: We started a new conference showcasing the capabilities of Azure Static Web Apps
 tags: Azure, SPA, Conference, Online
-cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/refs/heads/main/azure/2024/swaday-kickoff/cover-image.jpeg
+cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/refs/heads/main/azure/2024/swaday-kickoff/cover-image-2.jpeg
 # Use a ratio of 100:42 for best results.
 # published_at: 2024-09-21 17:02 +0000
 ---
