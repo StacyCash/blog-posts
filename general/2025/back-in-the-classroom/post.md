@@ -3,27 +3,40 @@ title: Back in the Classroom
 published: false
 description: Back in January I was back in uni sharing my thoughts on testing
 tags: learning, testing, students, speaking
-# cover_image: https://direct_url_to_image.jpg
+cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/refs/heads/main/general/2025/back-in-the-classroom/cover-image.jpg
 # Use a ratio of 100:42 for best results.
 # published_at: 2025-02-20 11:28 +0000
 ---
 
-For the last few years I have been lucky enough to be invited to speak to students studying software and DevOps at [De Haagse Hogeschool](https://www.dehaagsehogeschool.nl/). The course is facilitated by [Delta-N](https://www.delta-n.nl/), sharing their expertise with the new generation!
+50+ pairs of eyes stared back at me.
 
-And that sharing is why I also love being asked to do these things. For the last 2 years I have been speaking about Pair Programming, a topic I love talking about - because when done right you can really see the benefits that it brings.
+No slides (they weren’t ready yet), so no safety net - just me standing in front of a room full of students.
 
-This year, I wanted to change it up a little. I was already writing a new talk on testing first so thought this would be a great opportunity to try it out in the real world, before taing it to confernces.
+Unlike a conference crowd who actively picks your talk (and so I assume actually wants to be there), these students didn't have a choice about spending their morning listening to me talk about testing.
 
-It's also terrifying. When you speak on stage at a conference or meetup there the people there want to be there. They actively went to the conference, and to your talk. All you have to do is make sure that you make it worth their while.
+So, it was even more important to make it worth their time.
 
-Students are something else. They have to be there, you have entered their lecture space. Eek.
+This wasn't my first time at De Haagse Hogeschool. For the past few years, I've been fortunate to be part of Delta-N's program, sharing real-world experience with the next generation of developers.
 
-Even worse - I had zero slides because my slide deck was not ready - it was just me talking and them listening. Hopefully not bored. The bright side was that if I could make it work in this situation, I can make it at a conference.
+Usually, I talk about pair programming - sharing with students how working together makes them stronger developers is always a highlight of my year.
 
-The talk that I gave was [Testing First](#) (post coming soon). About how if we want testing first to really work then we need to think beyond "just TDD to implement your solution" and more into the world of solving problems for actual users.
+But this year was different. I wanted something new, and as I was writing a talk about it, I wanted to challenge these students to think differently about testing.
 
-And that means getting involved earlier in the process, talking to (if possible) actual users. But at the very least the testings and busines people working on your project with you.
+Not just about Test-Driven Development (or as most people know and do it: "writing tests when you don't know what code you want to write"), but about what happens before we write that first test.
 
-From the reaction that I got from the students in the room I think that I reached a few people, and at the very least made them think about what is possible. Whether talking at a conference, or to students, getting people to think about what I've said is the best thing that I can ask for.
+About getting out of our developer bubble and talking to actual users. 
 
-Hopefully I get to go back next year, maybe with another new talk!
+About getting into the conversation with testers and business stakeholders earlier, when your insights can really make a difference.
+
+I don't know how many I reached, but I saw enough thoughtful eyes, nodding heads and quizzical looks as they thought it through for themselves to make it all worth it!
+
+Software development is about much more than just implementing code, moving into that space where you can think about the problems that you are solving is a whole lot more fun.
+
+I don't want to make this post too long, so over the next few weeks, I'll be diving deeper into the key ideas from this lecture:
+
+* Getting into the flow earlier
+* Making sure that you understand the why of what we are doing
+* How to avoid that "How can I write tests when I haven't written any code?"
+* How to make sure that those tests you write don't come back to bite you in the future!
+
+Stay tuned - this is a wonderful rabbit hole to jump down!
