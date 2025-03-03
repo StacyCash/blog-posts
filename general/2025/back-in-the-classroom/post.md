@@ -24,7 +24,7 @@ But this year was different. I wanted something new, and as I was writing a talk
 
 Not just about Test-Driven Development (or as most people know and do it: "writing tests when you don't know what code you want to write"), but about what happens before we write that first test.
 
-About getting out of our developer bubble and talking to actual users. 
+About getting out of our developer bubble and talking to actual users.
 
 About getting into the conversation with testers and business stakeholders earlier, when your insights can really make a difference.
 
