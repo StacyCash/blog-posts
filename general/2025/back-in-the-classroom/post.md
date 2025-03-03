@@ -3,6 +3,8 @@ title: Back in the Classroom
 published: false
 description: Back in January I was back in uni sharing my thoughts on testing
 tags: learning, testing, students, speaking
+series: Testing First
+series-position: 1
 cover_image: https://raw.githubusercontent.com/StacyCash/blog-posts/refs/heads/main/general/2025/back-in-the-classroom/cover-image.jpg
 # Use a ratio of 100:42 for best results.
 # published_at: 2025-02-20 11:28 +0000
@@ -16,13 +18,15 @@ Unlike a conference crowd who actively picks your talk (and so I assume actually
 
 So, it was even more important to make it worth their time.
 
-This wasn't my first time at De Haagse Hogeschool. For the past few years, I've been fortunate to be part of Delta-N's program, sharing real-world experience with the next generation of developers.
+This wasn't my first time at [De Haagse Hogeschool](https://www.dehaagsehogeschool.nl/). For the past few years, I've been fortunate to be part of [Delta-N's program](https://www.delta-n.nl/referenties/studieblok-devops-bij-de-haagse-hogeschool/), sharing real-world experience with the next generation of developers.
 
 Usually, I talk about pair programming - sharing with students how working together makes them stronger developers is always a highlight of my year.
 
 But this year was different. I wanted something new, and as I was writing a talk about it, I wanted to challenge these students to think differently about testing.
 
 Not just about Test-Driven Development (or as most people know and do it: "writing tests when you don't know what code you want to write"), but about what happens before we write that first test.
+
+![Stacy presenting to students](https://raw.githubusercontent.com/StacyCash/blog-posts/refs/heads/main/general/2025/back-in-the-classroom/stacy-in-a-classroom.jpg)
 
 About getting out of our developer bubble and talking to actual users.
 
