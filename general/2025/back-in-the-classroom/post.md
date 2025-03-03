@@ -1,6 +1,6 @@
 ---
 title: Back in the Classroom
-published: false
+published: true
 description: Back in January I was back in uni sharing my thoughts on testing
 tags: learning, testing, students, speaking
 series: Testing First
@@ -24,17 +24,17 @@ Usually, I talk about pair programming - sharing with students how working toget
 
 But this year was different. I wanted something new, and as I was writing a talk about it, I wanted to challenge these students to think differently about testing.
 
-Not just about Test-Driven Development (or as most people know and do it: "writing tests when you don't know what code you want to write"), but about what happens before we write that first test.
+Not just about Test-Driven Development, (or as most people know and do it: "writing tests when you don't know what code you want to write"), but about:
+
+- What happens before we write that first test. 
+- Getting out of our developer bubble and talking to actual users.
+- Getting into the conversation with testers and business stakeholders earlier, when your insights can really make a difference.
 
 ![Stacy presenting to students](https://raw.githubusercontent.com/StacyCash/blog-posts/refs/heads/main/general/2025/back-in-the-classroom/stacy-in-a-classroom.jpg)
 
-About getting out of our developer bubble and talking to actual users.
+I don't know how many I reached, but I saw enough thoughtful eyes, nodding heads, and quizzical looks as they thought it through for themselves to make it all worth it!
 
-About getting into the conversation with testers and business stakeholders earlier, when your insights can really make a difference.
-
-I don't know how many I reached, but I saw enough thoughtful eyes, nodding heads and quizzical looks as they thought it through for themselves to make it all worth it!
-
-Software development is about much more than just implementing code, moving into that space where you can think about the problems that you are solving is a whole lot more fun.
+Software development is about much more than just implementing code; moving into that space where you can think about the problems that you are solving is a whole lot more fun.
 
 I don't want to make this post too long, so over the next few weeks, I'll be diving deeper into the key ideas from this lecture:
 
